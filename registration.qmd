@@ -1,0 +1,8 @@
+---
+title: "Registration"
+---
+
+- To register in the congress, please access this registration form (deadline XX-XX XYZ 2024).
+- If you want to submit an abstract, please [see instructions here](./abstract.html) (deadline XX-XX XYZ 2024).
+
+If you have any doubt about registration, please contact XYZ.

@@ -1,0 +1,27 @@
+project:
+  type: website
+
+website:
+  title: "12th Iberian Prion Congress"
+  reader-mode: true
+  page-footer: "&copy; 2023-2024 Website developed by Michał Burdukiewicz and Carlos Pintado-Grima (IBB-UAB)"
+  navbar:
+    background: primary
+    search: true
+    pinned: true
+    left:
+      - text: "Home"
+        file: index.qmd
+      - registration.qmd
+      - abstract.qmd
+      - venue.qmd
+      - accommodation.qmd
+    
+format:
+  html:
+    page-layout: full
+    theme: united
+    css: styles.css
+    toc: true
+    toc-location: left
+    toc-title: " "
