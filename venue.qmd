@@ -12,12 +12,16 @@ title: "Venue"
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2923.5419466300086!2d-8.548154423317104!3d42.882511301933995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2efe439a8ea05b%3A0xa327f75fdd7137b7!2sFacultade%20de%20Medicina%20(USC)!5e0!3m2!1sen!2ses!4v1686648045167!5m2!1sen!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-## How to get to the venue
+## Getting there
+
+
+
+## Around the venue
+
+<img src="figures/Facultad.jpeg" width="400">
 
 The Faculty of Medicine of the University of Santiago de Compostela is situated in an outstanding location in the historic centre of the city. 
 
 It is less than a 5-minute walk from the famous Cathedral of Santiago de Compostela, one of the most emblematic destinations for pilgrims completing the Camino de Santiago. It is about 550 metres northwest of the Plaza del Obradoiro, where the main façade of the Cathedral is located.
 
 Regarding another neuralgic point of the city, the Faculty of Medicine is located approximately 10 minutes from Alameda Park (an urban park with panoramic views of the city).
-
-<img src="figures/Facultad.jpeg" width="400">
