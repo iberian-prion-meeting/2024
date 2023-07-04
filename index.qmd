@@ -41,9 +41,9 @@ Congress: XX-XX XYZ 2024.
 - Giada Lavigna, Istituto Mario Negri, Italy
 - Cristina Sampedro, CICbioGUNE, Spain
 - Sara Canoyra Sanchez, INIA-CSIC, Spain
-- Leticia Camila Fernández Flores, UMG, Deutschland
+- Leticia Camila Fernández Flores, UMG, Germany
 - Anna Burato, SISSA, Italy
-- Michał Burdukiewicz, UAB, Spain
+- Michał Burdukiewicz, UMB, Poland/UAB, Spain
 - Nuria Lopez Lorenzo, USC, Spain
 - Sonia Pérez Lázaro, UNIZAR, Spain
 - Cacheiro Vázquez Raúl, USC, Spain
