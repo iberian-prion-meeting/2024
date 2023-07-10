@@ -13,8 +13,13 @@ title: "Venue"
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2923.5419466300086!2d-8.548154423317104!3d42.882511301933995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2efe439a8ea05b%3A0xa327f75fdd7137b7!2sFacultade%20de%20Medicina%20(USC)!5e0!3m2!1sen!2ses!4v1686648045167!5m2!1sen!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 ## Getting there
+To reach Santiago de Compostela, you have several transportation options available:
 
+- **By Airplane**: Santiago de Compostela has an international airport, Aeropuerto de Santiago de Compostela (Airport code: SCQ), which offers domestic and international flights. To reach the venue, public transportation buses (line 6A) can be utilized, offering a travel time of approximately 40 minutes to San Roque 21 bus stop.
 
+- **By Train**: The city features Santiago de Compostela Railway Station, a central hub for train services. Renfe, the national train company, operates both regional and high-speed routes to Santiago de Compostela. Located near the city center, the station is a convenient 15-minute walk away, enabling easy access to accommodations and further exploration of the city.
+
+- **By Bus**: Santiago de Compostela has good bus connections with other cities in Spain and neighbouring countries. You can check for bus services operated by ALSA, the main intercity bus company, or other regional bus operators. For reaching the venue, bus lines 1, 4, 5, 6, 6A, 8, or P1 from Pastoriza Street to San Roque 21 (2 bus stops) can be utilized.
 
 ## Around the venue
 
@@ -22,6 +27,6 @@ title: "Venue"
 
 The Faculty of Medicine of the University of Santiago de Compostela is situated in an outstanding location in the historic centre of the city. 
 
-It is less than a 5-minute walk from the famous Cathedral of Santiago de Compostela, one of the most emblematic destinations for pilgrims completing the Camino de Santiago. It is about 550 metres northwest of the Plaza del Obradoiro, where the main façade of the Cathedral is located.
+It is less than a 5-minute walk from the famous [Cathedral of Santiago de Compostela](https://www.google.es/maps/?q=Cathedral+of+Santiago+de+Compostela), one of the most emblematic destinations for pilgrims completing the Camino de Santiago. It is about 550 metres northwest of the [Plaza del Obradoiro](https://www.google.com/maps/place/42.880578147529675,-8.545418520539178), where the main façade of the Cathedral is located.
 
-Regarding another neuralgic point of the city, the Faculty of Medicine is located approximately 10 minutes from Alameda Park (an urban park with panoramic views of the city).
+Regarding another neuralgic point of the city, the Faculty of Medicine is located approximately 10 minutes from [Alameda Park](https://www.google.es/maps/place/42.87698718479483,-8.547506350677649) (an urban park with panoramic views of the city).
