@@ -4,6 +4,7 @@ title: "12th Iberian Congress on Prions | 23-24.05.2024"
 
 
 ### Sponsors 
+<img src="figures/usc.svg">
 
 ### Welcome
 
@@ -33,14 +34,14 @@ Abstract submission deadline: XX-XX XYZ 2024
 
 Registration deadline: XX-XX XYZ 2024
 
-Congress: XX-XX XYZ 2024.
+Congress: 23-24.05.2024.
 
 
 ### Organizing and Scientific Committee
 
 - Giada Lavigna, Istituto Mario Negri, Italy
 - Cristina Sampedro, CICbioGUNE, Spain
-- Sara Canoyra Sanchez, INIA-CSIC, Spain
+- Sara Canoyra Sánchez, CISA-INIA-CSIC, Spain
 - Leticia Camila Fernández Flores, UMG, Germany
 - Anna Burato, SISSA, Italy
 - Michał Burdukiewicz, UMB, Poland/UAB, Spain
