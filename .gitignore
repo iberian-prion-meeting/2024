@@ -4,3 +4,7 @@
 .Ruserdata
 /.quarto/
 prion-website2024.Rproj
+.Rdata
+.httr-oauth
+.DS_Store
+.quarto
