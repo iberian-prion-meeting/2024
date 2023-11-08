@@ -16,6 +16,8 @@ website:
       - abstract.qmd
       - venue.qmd
       - accommodation.qmd
+      - text: "Speakers"
+        file: keynotes.qmd
     
 format:
   html:

@@ -1,0 +1,39 @@
+---
+title: "Organizing and Scientific Committee"
+---
+### Subheader
+
+```{=html}
+
+<style>
+  .image-description-container {
+    display: flex;
+    flex-wrap: wrap; /* Wrap cards to the next line if necessary */
+    gap: 20px; /* Adjust spacing between cards */
+  }
+
+  .image-description-card {
+    flex: 1; /* Equal width for all cards */
+    padding: 20px;
+    text-align: left;
+  }
+
+  .image {
+    max-width: 100%; /* Ensure images scale appropriately */
+  }
+</style>
+
+<div class="image-description-container">
+  <!-- Use a Quarto loop construct to generate multiple cards -->
+  {{ for card in cards }}
+  <div class="image-description-card">
+    <div class="image">
+      <img src="{{ figures/keynote0.jpg }}" alt="Image Alt Text">
+    </div>
+    <div class="description">
+      {{ card.description }}
+    </div>
+  </div>
+  {{ end }}
+</div>
+```

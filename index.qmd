@@ -44,6 +44,7 @@ Congress: 23-24.05.2024.
 - Sara Canoyra Sánchez, CISA-INIA-CSIC, Spain
 - Leticia Camila Fernández Flores, UMG, Germany
 - Anna Burato, SISSA, Italy
+- Luigi Celauro, SISSA, Italy
 - Michał Burdukiewicz, UMB, Poland/UAB, Spain
 - Nuria Lopez Lorenzo, USC, Spain
 - Sonia Pérez Lázaro, UNIZAR, Spain
@@ -56,11 +57,3 @@ Congress: 23-24.05.2024.
 - Basile Fornara, INRAE, France
 - Alba Marin Moreno, INRAE, France
 - Jesús Requena, USC, Spain
-
-#### Local organizing committee
-
- - Pepe Pérez, Important University
-
-#### Scientific committee
-
- - Antonio Lopez, Even More Important University

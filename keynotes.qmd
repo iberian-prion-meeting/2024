@@ -1,0 +1,41 @@
+---
+title: "Speakers"
+---
+
+### Keynotes
+
+<div style="margin-top: 20px;"></div>
+
+```{=html}
+<div class="image-description">
+  <div class="image">
+    <img src="figures/keynote0.jpg" alt="keynote0" width="150" height="150" class="rounded-image">
+  </div>
+  <div class="description">
+    They will be revealed soon.... 
+  </div>
+</div>
+
+<style>
+  .image-description {
+    display: flex;
+    align-items: center;
+  }
+
+  .image {
+    flex: 1;
+    padding: 0px;
+    text-align: left;
+  }
+
+  .description {
+    flex: 4;
+    padding: 10px;
+    text-align: left;
+  }
+  .rounded-image {
+    filter: blur(10px); /* Adjust the blur radius (5px in this example) */
+    border-radius: 50px; /* Adjust the value to control the degree of rounding */
+  }
+</style>
+```
