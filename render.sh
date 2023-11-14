@@ -1,3 +1,3 @@
-rm -rf "docs/a2df1e659c9fd2578de0a26565357cb273292eeb"
+rm -rf docs
 quarto render
-mv _site "docs/"
+mv _site docs

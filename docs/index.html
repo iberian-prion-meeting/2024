@@ -1,138 +1,347 @@
-
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title></title>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.280">
 
-</head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+
+<title>12th Iberian Prion Congress - 12th Iberian Congress on Prions | 23-24.05.2024</title>
 <style>
-
-body {
-
-	background-image: url('background.jpg');
-	background-attachment: fixed;
-	color: #333;
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
 }
-
-.box {
-	border-radius: 3px;
-	background: rgba(101, 101, 101, 0.7); margin: auto; padding: 12px;
-}
-
-.lightbox {
-	zoom: 1.5;
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: rgba(10, 10, 10, 0.8);
-	text-align: center;
-	margin: auto;
-
-}
-
-div.horizontal {
-	display: flex;
-	justify-content: center;
-	height: 100%;
-}
-
-div.vertical {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	width: 100%;
-}
-
-::-webkit-input-placeholder {
-   color: #955;
-   text-align: center;
-}
-
-::-moz-placeholder {
-   color: #955;
-   text-align: center;
-}
-
-:-ms-input-placeholder {
-   color: #955;
-   text-align: center;
-}
-
-img {
-  height:100%; width:auto;
-}
-
 </style>
 
-<body>
 
-	<div id="loginbox" class="lightbox" >
-		<div class="horizontal">
-			<div class="vertical">
-				<div class="box">
-					<input style="margin: 16px; text-align: center;" id="password" type="password" placeholder="password" /> <br />
-					<button id="loginbutton" type="button">Enter</button>
-					<p id="wrongPassword" style="display: none">wrong password</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-
-	<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-
-
-	 <script type="text/javascript" src="https://rawcdn.githack.com/chrisveness/crypto/7067ee62f18c76dd4a9d372a00e647205460b62b/sha1.js"></script>
-
-	<script type="text/javascript">
-	"use strict";
-
-
-	function loadPage(pwd) {
-
-		var hash= pwd;
-		hash= Sha1.hash(pwd);
-		var url= hash + "/index.html";
-
-		$.ajax({
-			url : url,
-			dataType : "html",
-			success : function(data) {
-
-				window.location= url;
-
-			},
-			error : function(xhr, ajaxOptions, thrownError) {
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
 
 
-				parent.location.hash= hash;
+<link rel="stylesheet" href="styles.css">
+</head>
 
-				//$("#wrongPassword").show();
-				$("#password").attr("placeholder","wrong password");
-				$("#password").val("");
-			}
-		});
-	}
+<body class="floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">12th Iberian Prion Congress</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./registration.html">
+ <span class="menu-text">Registration</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./abstract.html">
+ <span class="menu-text">Submit abstract</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./venue.html">
+ <span class="menu-text">Venue</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./accommodation.html">
+ <span class="menu-text">Accommodation</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./keynotes.html">
+ <span class="menu-text">Speakers</span></a>
+  </li>  
+</ul>
+              <div class="quarto-toggle-container">
+                  <a href="" class="quarto-reader-toggle nav-link" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+              </div>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+   
+  <ul>
+  <li><a href="#sponsors" id="toc-sponsors" class="nav-link active" data-scroll-target="#sponsors">Sponsors</a></li>
+  <li><a href="#welcome" id="toc-welcome" class="nav-link" data-scroll-target="#welcome">Welcome</a></li>
+  <li><a href="#important-dates" id="toc-important-dates" class="nav-link" data-scroll-target="#important-dates">Important dates</a></li>
+  <li><a href="#organizing-and-scientific-committee" id="toc-organizing-and-scientific-committee" class="nav-link" data-scroll-target="#organizing-and-scientific-committee">Organizing and Scientific Committee</a></li>
+  </ul>
+</nav>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
+<!-- main -->
+<main class="content column-page-right" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">12th Iberian Congress on Prions | 23-24.05.2024</h1>
+</div>
 
 
-	$("#loginbutton").on("click", function() {
-		loadPage($("#password").val());
-	});
-	$("#password").keypress(function(e) {
-		if (e.which == 13) {
 
-			loadPage($("#password").val());
-		}
-	});
-	$("#password").focus();
+<div class="quarto-title-meta">
 
-	</script>
+    
+  
+    
+  </div>
+  
 
-</body>
-</html>
+</header>
+
+<section id="sponsors" class="level3">
+<h3 class="anchored" data-anchor-id="sponsors">Sponsors</h3>
+<p><img src="figures/usc.svg"></p>
+</section>
+<section id="welcome" class="level3">
+<h3 class="anchored" data-anchor-id="welcome">Welcome</h3>
+<p>Welcome to the 12th Iberian Prion Congress at the Universidad de Santiago - Galicia!</p>
+<p>It is with great pleasure that we gather here today, over 20 years since the first case of BSE was diagnosed in Spain, marking a significant turning point in our professional careers. The impact of that event shaped our determination to unravel the mysteries of prion diseases, which continue to pose immense challenges to patients and researchers alike. While a cure remains elusive, the past two decades have witnessed remarkable advancements in the field of prion science.</p>
+<p>The Iberian Prion Congress has always been guided by the principles of the One Health approach, bringing together experts from diverse disciplines to address the shared molecular mechanisms of prion diseases and other protein misfolding disorders prevalent in our aging society. This interdisciplinary collaboration has played a crucial role in our quest to develop effective treatments and interventions.</p>
+<p>We are proud to host the 12th Iberian Prion Congress at the prestigious Universidad de Santiago - Galicia, where renowned scientists, medical doctors, biologists, veterinarians, biotechnologists, biochemists, and other specialists from the Iberian Peninsula and beyond will convene. This gathering provides a unique platform for fostering and strengthening interdisciplinary collaborations, enabling us to collectively tackle the challenges that lie ahead.</p>
+<p>In particular, we are committed to nurturing the participation of young scientists. Their innovative ideas, fresh perspectives, and groundbreaking research are the keys to unlocking new avenues in prion science. The congress will feature dedicated sessions and interactive discussions that offer young researchers the opportunity to present and engage with their peers, fostering an environment of mentorship and knowledge exchange.</p>
+<p>As we embark on this scientific journey at the Universidad de Santiago - Galicia, we are not only inspired by the vibrant atmosphere of this historic city but also by the spirit of collaboration and shared purpose that permeates the Iberian Prion Congress. Together, we will strive to transcend boundaries, explore new frontiers, and ultimately find solutions to the challenges posed by prion diseases.</p>
+<p>On behalf of the organizing committee, we extend our heartfelt gratitude to all the participants, speakers, sponsors, and volunteers who have contributed to making this congress possible. Your dedication and support are instrumental in our collective pursuit of advancing prion research.</p>
+<p>We eagerly await your arrival at the 12th Iberian Prion Congress at the Universidad de Santiago - Galicia. Let us join forces, exchange knowledge, and forge new partnerships that will pave the way for a future where prion diseases are conquered, bringing hope and relief to countless individuals affected by these devastating conditions.</p>
+<p>Thank you, and we look forward to welcoming you all in Santiago!</p>
+<p>The Organizing Committee</p>
+</section>
+<section id="important-dates" class="level3">
+<h3 class="anchored" data-anchor-id="important-dates">Important dates</h3>
+<p>Abstract submission deadline: XX-XX XYZ 2024</p>
+<p>Registration deadline: XX-XX XYZ 2024</p>
+<p>Congress: 23-24.05.2024.</p>
+</section>
+<section id="organizing-and-scientific-committee" class="level3">
+<h3 class="anchored" data-anchor-id="organizing-and-scientific-committee">Organizing and Scientific Committee</h3>
+<ul>
+<li>Giada Lavigna, Istituto Mario Negri, Italy</li>
+<li>Cristina Sampedro, CICbioGUNE, Spain</li>
+<li>Sara Canoyra Sánchez, CISA-INIA-CSIC, Spain</li>
+<li>Leticia Camila Fernández Flores, UMG, Germany</li>
+<li>Anna Burato, SISSA, Italy</li>
+<li>Luigi Celauro, SISSA, Italy</li>
+<li>Michał Burdukiewicz, UMB, Poland/UAB, Spain</li>
+<li>Nuria Lopez Lorenzo, USC, Spain</li>
+<li>Sonia Pérez Lázaro, UNIZAR, Spain</li>
+<li>Cacheiro Vázquez Raúl, USC, Spain</li>
+<li>Sabzehei Sanaz, USC, Spain</li>
+<li>Nicole Innocenti, CIBIO-UNITN, Italy</li>
+<li>Nuno Filipe Coutinho Gonçalves Anjo, CICbioGUNE, Spain</li>
+<li>Dino Gasparotto, UNITN &amp; Sibylla Biotech, Italy</li>
+<li>Ilaria Zeni, CIBIO-UNITN, Italy</li>
+<li>Basile Fornara, INRAE, France</li>
+<li>Alba Marin Moreno, INRAE, France</li>
+<li>Jesús Requena, USC, Spain</li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+      <div class="nav-footer-center">© 2023-2024 Website developed by Michał Burdukiewicz and Carlos Pintado-Grima (IBB-UAB)</div>
+  </div>
+</footer>
+
+
+
+</body></html>
