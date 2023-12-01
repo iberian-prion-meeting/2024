@@ -18,6 +18,8 @@ website:
       - accommodation.qmd
       - text: "Speakers"
         file: keynotes.qmd
+      - text: "About Santiago"
+        file: visitsantiago.qmd
     
 format:
   html:
