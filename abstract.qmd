@@ -2,11 +2,12 @@
 title: "Submit abstract"
 ---
 
-#### Abstract Instructions
+The submission form will be published soon.
 
-- Abstracts must be in English and limited to XYZ characters. 
-- To submit an abstract please complete this abstract form (deadline XX-XX XYZ 2024).
-- The presenting author of each abstract must be registered to attend the conference.  
+```{=html}
+<!-- - Abstracts must be in English and limited to XYZ characters.  -->
+<!-- - To submit an abstract please complete this abstract form (deadline XX-XX XYZ 2024). -->
+<!-- - The presenting author of each abstract must be registered to attend the conference.   -->
 
-<u>Remember that to attend the congress you also need to [register here](./registration.html)</u>.
-
+<!-- <u>Remember that to attend the congress you also need to [register here](./registration.html)</u>. -->
+```

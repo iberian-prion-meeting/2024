@@ -1,18 +1,41 @@
 ---
-title: "Speakers"
+title: "Keynote speakers"
 ---
-
-### Keynotes
 
 <div style="margin-top: 20px;"></div>
 
 ```{=html}
+
+<h3>Prion Structure and Biology</h3>
+
 <div class="image-description">
   <div class="image">
-    <img src="figures/keynote0.jpg" alt="keynote0" width="150" height="150" class="rounded-image">
+    <img src="figures/k2.jpg" alt="keynote0" width="150" height="150" class="rounded-image">
   </div>
   <div class="description">
-    They will be revealed soon.... 
+    Jan Bieschke (MRC Prion Unit and Institute of Prion diseases, London, United Kingdom).
+  </div>
+</div>
+
+<h3>Prion Diseases in Animals</h3>
+
+<div class="image-description">
+  <div class="image">
+    <img src="figures/k3.jpg" alt="keynote0" width="150" height="150" class="rounded-image">
+  </div>
+  <div class="description">
+    Alicia Otero (Centro de Encefalopatias y Enfermedades Transmisibles Emergentes, University of Zaragoza).
+  </div>
+</div>
+
+<h3>Prion & Prion-like Diseases in Humans</h3>
+
+<div class="image-description">
+  <div class="image">
+    <img src="figures/k1.jpg" alt="keynote0" width="150" height="150" class="rounded-image">
+  </div>
+  <div class="description">
+    Inga Zerr (Georg-August-Universität, Göttingen, Germany; German Center for Neurodegenerative Diseases).
   </div>
 </div>
 
@@ -34,7 +57,6 @@ title: "Speakers"
     text-align: left;
   }
   .rounded-image {
-    filter: blur(10px); /* Adjust the blur radius (5px in this example) */
     border-radius: 50px; /* Adjust the value to control the degree of rounding */
   }
 </style>
