@@ -2,6 +2,8 @@
 title: "Visiting Santiago de Compostela"
 ---
 
+<img src="figures/santiago2.jpg" width="300" height="300">
+
 ## Santiago de Compostela
 A UNESCO World Heritage Site since 1985, Santiago is a major Christian pilgrimage destination, revered alongside Jerusalem and Rome. Believed to be the final resting place of Saint James the Greater, this historic city reveals its cultural heritage through landmarks such as the iconic cathedral dedicated to the Apostle James. Discover Santiago's rich history and spiritual significance.
 

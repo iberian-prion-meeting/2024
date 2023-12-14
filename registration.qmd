@@ -10,3 +10,6 @@ The registration form will be published soon.
 
 <!-- If you have any doubt about registration, please contact XYZ. -->
 ```
+
+<img src="figures/prion_fig1.jpg" width="200" height="200">
+

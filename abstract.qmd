@@ -11,3 +11,5 @@ The submission form will be published soon.
 
 <!-- <u>Remember that to attend the congress you also need to [register here](./registration.html)</u>. -->
 ```
+
+<img src="figures/prion_fig2.jpg" width="200" height="350">
