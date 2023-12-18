@@ -1,9 +1,202 @@
 ---
 title: "Organizing and Scientific Committee"
 ---
-### Subheader
 
 ```{=html}
+<div class="image-description-container">
+
+  <div class="image-description">
+    <div class="image">
+      <img src="figures/comm/LLL_f.png" alt="an_happy_researcher" width="200" height="200" class="rounded-image">
+    </div>
+    <div class="description">
+      <strong>Leticia Lucero López</strong><br>
+      <em>CNB-CSIC, Spain</em>
+    </div>
+  </div>
+
+  <div class="image-description">
+    <div class="image">
+      <img src="figures/comm/AB_fmtd.png" alt="an_happy_researcher" width="200" height="200" class="rounded-image">
+    </div>
+    <div class="description">
+      <strong>Anna Burato</strong><br>
+      <em>SISSA, Italy</em>
+    </div>
+  </div>
+
+  <div class="image-description">
+    <div class="image">
+      <img src="figures/comm/LC.png" alt="an_happy_researcher" width="200" height="200" class="rounded-image">
+    </div>
+    <div class="description">
+      <strong>Luigi Celauro</strong><br>
+      <em>SISSA, Italy</em>
+    </div>
+  </div>
+
+  <div class="image-description">
+    <div class="image">
+      <img src="figures/comm/MB_f.png" alt="an_happy_researcher" width="200" height="200" class="rounded-image">
+    </div>
+    <div class="description">
+      <strong>Michał Burdukiewicz</strong><br>
+      <em>UMB, Poland/UAB, Spain</em>
+    </div>
+  </div>
+
+  <div class="image-description">
+    <div class="image">
+      <img src="figures/comm/IZ_f.png" alt="an_happy_researcher" width="200" height="200" class="rounded-image">
+    </div>
+    <div class="description">
+      <strong>Ilaria Zeni</strong><br>
+      <em>CIBIO-UNITN, Italy</em>
+    </div>
+  </div>
+
+  <div class="image-description">
+    <div class="image">
+      <img src="figures/comm/NI_f.png" alt="an_happy_researcher" width="200" height="200" class="rounded-image">
+    </div>
+    <div class="description">
+      <strong>Nicole Innocenti</strong><br>
+      <em>CIBIO-UNITN, Italy</em>
+    </div>
+  </div>
+
+  <div class="image-description">
+    <div class="image">
+      <img src="figures/comm/DG.png" alt="an_happy_researcher" width="200" height="200" class="rounded-image">
+    </div>
+    <div class="description">
+      <strong>Dino Gasparotto</strong><br>
+      <em>UNITN, Italy</em>
+    </div>
+  </div>
+
+  <div class="image-description">
+    <div class="image">
+      <img src="figures/comm/GL_f.png" alt="an_happy_researcher" width="200" height="200" class="rounded-image">
+    </div>
+    <div class="description">
+      <strong>Giada Lavigna</strong><br>
+      <em>Istituto Mario Negri, Italy</em>
+    </div>
+  </div>
+
+  <div class="image-description">
+    <div class="image">
+      <img src="figures/comm/NL.png" alt="an_happy_researcher" width="200" height="200" class="rounded-image">
+    </div>
+    <div class="description">
+      <strong>Nuria Lopez Lorenzo</strong><br>
+      <em>USC, Spain</em>
+    </div>
+  </div>
+
+  <div class="image-description">
+    <div class="image">
+      <img src="figures/comm/SCS.png" alt="an_happy_researcher" width="200" height="200" class="rounded-image">
+    </div>
+    <div class="description">
+      <strong>Sara Canoyra Sánchez</strong><br>
+      <em>CISA-INIA-CSIC, Spain</em>
+    </div>
+  </div>
+
+  <div class="image-description">
+    <div class="image">
+      <img src="figures/comm/SPL.png" alt="an_happy_researcher" width="200" height="200" class="rounded-image">
+    </div>
+    <div class="description">
+      <strong>Sonia Pérez Lázaro</strong><br>
+      <em>UNIZAR, Spain</em>
+    </div>
+  </div>
+
+  <div class="image-description">
+    <div class="image">
+      <img src="figures/comm/CS.png" alt="an_happy_researcher" width="200" height="200" class="rounded-image">
+    </div>
+    <div class="description">
+      <strong>Cristina Sampedro</strong><br>
+      <em>CICbioGUNE, Spain</em>
+    </div>
+  </div>
+
+  <div class="image-description">
+    <div class="image">
+      <img src="figures/comm/noise.jpg" alt="an_happy_researcher" width="200" height="200" class="rounded-image">
+    </div>
+    <div class="description">
+      <strong>Leticia Camila Fernández Flores</strong><br>
+      <em>UMG, Germany</em>
+    </div>
+  </div>
+
+  <div class="image-description">
+    <div class="image">
+      <img src="figures/comm/noise.jpg" alt="an_happy_researcher" width="200" height="200" class="rounded-image">
+    </div>
+    <div class="description">
+      <strong>Nuno Filipe Coutinho Gonçalves Anjo</strong><br>
+      <em>CICbioGUNE, Spain</em>
+    </div>
+  </div>
+
+  <div class="image-description">
+    <div class="image">
+      <img src="figures/comm/noise.jpg" alt="an_happy_researcher" width="200" height="200" class="rounded-image">
+    </div>
+    <div class="description">
+      <strong>Basile Fornara</strong><br>
+      <em>INRAE, France</em>
+    </div>
+  </div>
+  <div class="image-description">
+    <div class="image">
+      <img src="figures/comm/noise.jpg" alt="an_happy_researcher" width="200" height="200" class="rounded-image">
+    </div>
+    <div class="description">
+      <strong>Alba Marin Moreno</strong><br>
+      <em>INRAE, France</em>
+    </div>
+  </div>
+  <div class="image-description">
+    <div class="image">
+      <img src="figures/comm/noise.jpg" alt="an_happy_researcher" width="200" height="200" class="rounded-image">
+    </div>
+    <div class="description">
+      <strong>Sabzehei Sanaz</strong><br>
+      <em>USC, Spain</em>
+    </div>
+  </div>
+
+  <div class="image-description">
+    <div class="image">
+      <img src="figures/comm/noise.jpg" alt="an_happy_researcher" width="200" height="200" class="rounded-image">
+    </div>
+    <div class="description">
+      <strong>Michał Burdukiewicz</strong><br>
+      <em>UMB, Poland/UAB, Spain</em>
+    </div>
+  </div>
+
+  <div class="image-description">
+    <div class="image">
+      <img src="figures/comm/noise.jpg" alt="an_happy_researcher" width="200" height="200" class="rounded-image">
+    </div>
+    <div class="description">
+      <strong>Jesús Requena</strong><br>
+      <em>USC, Spain</em>
+    </div>
+  </div>
+
+
+</div>
+
+
 
 <style>
   .image-description-container {
@@ -12,28 +205,18 @@ title: "Organizing and Scientific Committee"
     gap: 20px; /* Adjust spacing between cards */
   }
 
-  .image-description-card {
+  .image-description {
     flex: 1; /* Equal width for all cards */
     padding: 20px;
     text-align: left;
+    /* font-size: 16px; /* Increase the font size */
   }
 
   .image {
     max-width: 100%; /* Ensure images scale appropriately */
   }
+  .rounded-image {
+    border-radius: 15px; /* Adjust the value to control the degree of rounding */
+  }
 </style>
-
-<div class="image-description-container">
-  <!-- Use a Quarto loop construct to generate multiple cards -->
-  {{ for card in cards }}
-  <div class="image-description-card">
-    <div class="image">
-      <img src="{{ figures/keynote0.jpg }}" alt="Image Alt Text">
-    </div>
-    <div class="description">
-      {{ card.description }}
-    </div>
-  </div>
-  {{ end }}
-</div>
 ```

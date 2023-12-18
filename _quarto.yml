@@ -4,7 +4,7 @@ project:
 website:
   title: "12th Iberian Prion Congress"
   reader-mode: true
-  page-footer: "&copy; 2023-2024 Website developed by Michał Burdukiewicz, Carlos Pintado-Grima (IBB-UAB) and Sara Canoyra Sanchez (CSIC). Images were provided by Leticia Lucero from Rafael Giraldo's research group (CNB-CSIC, Madrid)."
+  page-footer: "&copy; 2023-2024 Website developed by Michał Burdukiewicz, Carlos Pintado-Grima (IBB-UAB), Dino Gasparotto (UNITN) and Sara Canoyra Sanchez (CSIC). Images were provided by Leticia Lucero from Rafael Giraldo's research group (CNB-CSIC, Madrid)."
   navbar:
     background: primary
     search: true
