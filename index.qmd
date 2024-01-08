@@ -3,7 +3,7 @@ title: "12th Iberian Congress on Prions | 23-24.05.2024"
 style : styles.css
 ---
 
-<img src="figures/logo24.jpg" alt="logo" width="300" height="300">
+<img src="figures/logo24.png" alt="logo" width="200" height="340">
 
 ### Sponsors 
 <img src="figures/usc.svg">
