@@ -1,7 +1,9 @@
 ---
 title: "12th Iberian Congress on Prions | 23-24.05.2024"
+style : styles.css
 ---
 
+<img src="figures/logo24.jpg" alt="logo" width="300" height="300">
 
 ### Sponsors 
 <img src="figures/usc.svg">
@@ -38,7 +40,7 @@ Congress: 23-24.05.2024.
 
 <img src="figures/santiago1.jpg" width="200" height="200">
 
-### Organizing and Scientific Committee
+### [Organizing and Scientific Committee](committee.html)
 
 - Leticia Lucero López, CNB-CSIC, Spain
 - Giada Lavigna, Istituto Mario Negri, Italy

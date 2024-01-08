@@ -21,11 +21,13 @@ website:
       - text: "About Santiago"
         file: visitsantiago.qmd
     
+
 format:
   html:
     page-layout: full
-    theme: united
+    theme: [united, quarto_style.scss]
     css: styles.css
     toc: true
     toc-location: left
     toc-title: " "
+
