@@ -25,7 +25,9 @@ website:
 format:
   html:
     page-layout: full
-    theme: [united, quarto_style.scss]
+    theme: 
+      light: [united, quarto_palette.scss]
+      dark: [united, quarto_dark_palette.scss]
     css: styles.css
     toc: true
     toc-location: left
