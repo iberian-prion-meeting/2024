@@ -20,7 +20,6 @@ website:
         file: keynotes.qmd
       - text: "About Santiago"
         file: visitsantiago.qmd
-    
 
 format:
   html:
