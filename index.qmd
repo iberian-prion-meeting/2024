@@ -6,7 +6,7 @@ style : styles.css
 <img src="figures/logo24.png" alt="logo" width="300" height="360">
 
 ### Sponsors 
-<img src="figures/usc.svg">
+<img src="figures/usc.svg"> <img src="figures/Logo-Proquinorte.avif">
 
 ### Welcome
 
