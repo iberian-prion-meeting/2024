@@ -3,7 +3,7 @@ title: "12th Iberian Congress on Prions | 23-24.05.2024"
 style : styles.css
 ---
 
-<img src="figures/logo24.png" alt="logo" width="300" height="360">
+<img src="figures/logo24_3.png" alt="logo" width="300" height="300">
 
 ### Sponsors 
 <img src="figures/usc.svg"> <img src="figures/Logo-Proquinorte.avif">
@@ -58,6 +58,4 @@ Congress: 23-24.05.2024.
 - Nuno Filipe Coutinho Gonçalves Anjo, CICbioGUNE, Spain
 - Dino Gasparotto, UNITN & Sibylla Biotech, Italy
 - Ilaria Zeni, CIBIO-UNITN, Italy
-- Basile Fornara, INRAE, France
-- Alba Marin Moreno, INRAE, France
 - Jesús Requena, USC, Spain
