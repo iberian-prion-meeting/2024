@@ -210,7 +210,10 @@ ul.task-list li input[type="checkbox"] {
   <div class="description">
     <strong style="font-size: larger;">Inga Zerr</strong><br>
     <em>German Center for Neurodegenerative Diseases</em><br>
-    Georg-August-Universität, Göttingen, Germany
+    Georg-August-Universität, Göttingen, Germany<br>
+    <div style="color: #0299ce;">
+        <p>Click here to know more</p>
+    </div>
   </div>
 </div>
 
@@ -285,8 +288,13 @@ ul.task-list li input[type="checkbox"] {
     cursor: pointer;
   }
   .image-description {
+    cursor : pointer;
     display: flex;
     align-items: center;
+  }
+  .image-description:hover{
+    background-color: #daeaf4;
+    border-radius: 25px;
   }
   .popup-image-description {
     display: flex;
@@ -335,6 +343,7 @@ ul.task-list li input[type="checkbox"] {
       popup.style.display = "none";
     }
   }
+  
   // Get all elements with class="popup-background" and attach the click event
   var backgrounds = document.getElementsByClassName("popup-background");
   for (let i = 0; i < backgrounds.length; i++) {
