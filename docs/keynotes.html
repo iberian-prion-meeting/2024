@@ -262,6 +262,9 @@ ul.task-list li input[type="checkbox"] {
     display: flex;
     align-items: center;
   }
+  .touchdevice-additional-text {
+    display : none;
+  }
   .popup-image-description {
     display: flex;
     align-items: center;
@@ -272,7 +275,16 @@ ul.task-list li input[type="checkbox"] {
     .popup-image-description {
       flex-direction: column;
     }
+    .image-description {
+      flex-direction: column;
+    }
   }
+  @media (pointer: coarse) {
+    .touchdevice-additional-text {
+      display: block;
+    }
+  }
+
   .image {
     flex: 1;
     padding: 0px;

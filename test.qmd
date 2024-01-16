@@ -68,8 +68,8 @@
     <strong style="font-size: larger;">Inga Zerr</strong><br>
     <em>German Center for Neurodegenerative Diseases</em><br>
     Georg-August-Universität, Göttingen, Germany<br>
-    <div style="color: #0299ce;">
-        <p>Click here to know more</p>
+    <div class="touchdevice-additional-text" style="color: #0299ce;">
+        <p>Click to know more</p>
     </div>
   </div>
 </div>
@@ -153,6 +153,9 @@
     background-color: #daeaf4;
     border-radius: 25px;
   }
+  .touchdevice-additional-text {
+    display : none;
+  }
   .popup-image-description {
     display: flex;
     align-items: center;
@@ -162,6 +165,14 @@
   @media (max-width: 600px) {
     .popup-image-description {
       flex-direction: column;
+    }
+    .image-description {
+      flex-direction: column;
+    }
+  }
+  @media (pointer: coarse) {
+    .touchdevice-additional-text {
+      display: block;
     }
   }
   .image {

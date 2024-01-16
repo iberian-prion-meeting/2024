@@ -107,6 +107,9 @@ title: "Keynote speakers"
     display: flex;
     align-items: center;
   }
+  .touchdevice-additional-text {
+    display : none;
+  }
   .popup-image-description {
     display: flex;
     align-items: center;
@@ -117,7 +120,16 @@ title: "Keynote speakers"
     .popup-image-description {
       flex-direction: column;
     }
+    .image-description {
+      flex-direction: column;
+    }
   }
+  @media (pointer: coarse) {
+    .touchdevice-additional-text {
+      display: block;
+    }
+  }
+
   .image {
     flex: 1;
     padding: 0px;
