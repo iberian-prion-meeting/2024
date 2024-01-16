@@ -18,7 +18,7 @@
     <div class="popup-image-description">
         <img src="figures/k2.jpg" alt="keynote0" width="200" height="200" class="rounded-image">
     <div class="description">
-        <strong style="font-size: larger;">Jan Bieschke</strong><br>
+        <strong style="font-size: larger;">Jan Bieschke</strong>
     </div>
     </div>
     <p style="text-align: justify;"></p>
@@ -46,7 +46,7 @@
     <div class="popup-image-description">
         <img src="figures/k3.jpg" alt="keynote0" width="200" height="200" class="rounded-image">
     <div class="description">
-        <strong style="font-size: larger;">Alicia Otero</strong><br>
+        <strong style="font-size: larger;">Alicia Otero</strong>
     </div>
     </div>
     <p style="text-align: justify;"></p>
@@ -80,10 +80,9 @@
     <div class="popup-image-description">
         <img src="figures/k1.jpg" alt="keynote0" width="200" height="200" class="rounded-image">
         <div class="description">
-        <strong style="font-size: larger;">Inga Zerr</strong><br>
+        <strong style="font-size: larger;">Inga Zerr</strong>
         </div>
     </div>
-    <br>
         <p style="text-align: justify;">Inga Zerr is neurologist and Professor at the Department of Neurology, University Medical Center, Georg-August University Göttingen and Head of the Neurochemistry Laboratory at the institution. She is Director of the National Reference Center for Human Transmissible Encephalopathies in Germany. Her research focusses on biomarker development and on clinical and therapeutic trials in prion diseases and other dementia.</p>
   </div>
 </div>
@@ -155,13 +154,13 @@
     text-align: left;
   }
   .image-description {
-    cursor : pointer;
+    cursor: pointer;
     display: flex;
     align-items: center;
   }
   .image-description:hover{
     background-color: #daeaf4;
-    border-radius: 25px;
+    border-radius: 30px;
   }
   .touchdevice-additional-text {
     display : none;
@@ -169,23 +168,31 @@
   .popup-image-description {
     display: flex;
     align-items: center;
-    flex-direction: row; /* Default direction */
+    flex-direction: column; /* Default direction */
   }
   /* Change flex direction for screens smaller than 600px */
   @media (max-width: 600px) {
-    .popup-image-description {
-      flex-direction: column;
-    }
     .image-description {
         flex-direction: column;
     }
     .description {
         text-align: center;
     }
+    .image {
+      margin-top: 7px;
+    }
   }
-  @media (pointer: coarse) {
+  @media (pointer: coarse) { /* For touch based devices, add text to remind clickableness, fainter hover color*/
     .touchdevice-additional-text {
       display: block;
+    }
+    .image-description{
+      background-color: #0299ce05;
+      border-radius: 30px;
+      box-shadow: 2px 2px 5px rgb(0 125 169 / 35%);
+    }
+    .image {
+      margin-top: 7px;
     }
   }
 
