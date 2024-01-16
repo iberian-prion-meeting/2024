@@ -1,7 +1,3 @@
----
-title: "Keynote speakers"
----
-
 ### Prion Structure and Biology
 ```{=html}
 <div class="image-description">
@@ -9,12 +5,25 @@ title: "Keynote speakers"
     <img src="figures/k2.jpg" alt="keynote0" width="150" height="150" class="rounded-image">
   </div>
   <div class="description">
-    <strong>Jan Bieschke</strong><br>
+    <strong style="font-size: larger;">Jan Bieschke</strong><br>
     <em>MRC Prion Unit and Institute of Prion diseases</em><br>
     London, United Kingdom
   </div>
 </div>
 
+<div id="popup1" class="popup">
+    <div class="popup-background"></div>
+  <div class="popup-content">
+    <span class="close">&times;</span>
+    <div class="popup-image-description">
+        <img src="figures/k2.jpg" alt="keynote0" width="200" height="200" class="rounded-image">
+    <div class="description">
+        <strong style="font-size: larger;">Jan Bieschke</strong><br>
+    </div>
+    </div>
+    <p style="text-align: justify;"></p>
+  </div>
+</div>
 ```
 ### Prion Diseases in Animals
 ```{=html}
@@ -24,12 +33,25 @@ title: "Keynote speakers"
     <img src="figures/k3.jpg" alt="keynote0" width="150" height="150" class="rounded-image">
   </div>
   <div class="description">
-    <strong>Alicia Otero</strong><br>
+    <strong style="font-size: larger;">Alicia Otero</strong><br>
     <em>Centro de Encefalopatias y Enfermedades Transmisibles Emergentes </em><br>
     University of Zaragoza, Spain
   </div>
 </div>
 
+<div id="popup2" class="popup">
+    <div class="popup-background"></div>
+  <div class="popup-content">
+    <span class="close">&times;</span>
+    <div class="popup-image-description">
+        <img src="figures/k3.jpg" alt="keynote0" width="200" height="200" class="rounded-image">
+    <div class="description">
+        <strong style="font-size: larger;">Alicia Otero</strong><br>
+    </div>
+    </div>
+    <p style="text-align: justify;"></p>
+  </div>
+</div>
 
 ```
 ### Prion & Prion-like Diseases in Humans
@@ -42,9 +64,27 @@ title: "Keynote speakers"
     <img src="figures/k1.jpg" alt="keynote0" width="150" height="150" class="rounded-image">
   </div>
   <div class="description">
-    <strong>Inga Zerr</strong><br>
+    <strong style="font-size: larger;">Inga Zerr</strong><br>
     <em>German Center for Neurodegenerative Diseases</em><br>
-    Georg-August-Universität, Göttingen, Germany
+    Georg-August-Universität, Göttingen, Germany<br>
+    <div class="touchdevice-additional-text" style="color: #0299ce;">
+        <p>Click to know more</p>
+    </div>
+  </div>
+</div>
+
+<div id="popup3" class="popup">
+    <div class="popup-background"></div>
+  <div class="popup-content">
+    <span class="close">&times;</span>
+    <div class="popup-image-description">
+        <img src="figures/k1.jpg" alt="keynote0" width="200" height="200" class="rounded-image">
+        <div class="description">
+        <strong style="font-size: larger;">Inga Zerr</strong><br>
+        </div>
+    </div>
+    <br>
+        <p style="text-align: justify;">Inga Zerr is neurologist and Professor at the Department of Neurology, University Medical Center, Georg-August University Göttingen and Head of the Neurochemistry Laboratory at the institution. She is Director of the National Reference Center for Human Transmissible Encephalopathies in Germany. Her research focusses on biomarker development and on clinical and therapeutic trials in prion diseases and other dementia.</p>
   </div>
 </div>
 
@@ -103,9 +143,25 @@ title: "Keynote speakers"
     text-decoration: none;
     cursor: pointer;
   }
+  .image {
+    flex: 1;
+    padding: 0px;
+    text-align: left;
+  }
+
+  .description {
+    flex: 5;
+    padding: 10px;
+    text-align: left;
+  }
   .image-description {
+    cursor : pointer;
     display: flex;
     align-items: center;
+  }
+  .image-description:hover{
+    background-color: #daeaf4;
+    border-radius: 25px;
   }
   .touchdevice-additional-text {
     display : none;
@@ -121,7 +177,10 @@ title: "Keynote speakers"
       flex-direction: column;
     }
     .image-description {
-      flex-direction: column;
+        flex-direction: column;
+    }
+    .description {
+        text-align: center;
     }
   }
   @media (pointer: coarse) {
@@ -130,17 +189,6 @@ title: "Keynote speakers"
     }
   }
 
-  .image {
-    flex: 1;
-    padding: 0px;
-    text-align: left;
-  }
-
-  .description {
-    flex: 5;
-    padding: 10px;
-    text-align: left;
-  }
   .rounded-image {
     border-radius: 20%; /* Adjust the value to control the degree of rounding */
   }
@@ -169,6 +217,7 @@ title: "Keynote speakers"
       popup.style.display = "none";
     }
   }
+  
   // Get all elements with class="popup-background" and attach the click event
   var backgrounds = document.getElementsByClassName("popup-background");
   for (let i = 0; i < backgrounds.length; i++) {
