@@ -167,8 +167,7 @@ ul.task-list li input[type="checkbox"] {
         London, United Kingdom
     </div>
     </div>
-    <br>
-    <p style="text-align: justify;">...</p>
+    <p style="text-align: justify;"></p>
   </div>
 </div>
 </section>
@@ -198,8 +197,7 @@ ul.task-list li input[type="checkbox"] {
         University of Zaragoza, Spain
     </div>
     </div>
-    <br>
-    <p style="text-align: justify;">...</p>
+    <p style="text-align: justify;"></p>
   </div>
 </div>
 
@@ -299,8 +297,14 @@ ul.task-list li input[type="checkbox"] {
   .popup-image-description {
     display: flex;
     align-items: center;
+    flex-direction: row; /* Default direction */
   }
-
+  /* Change flex direction for screens smaller than 600px */
+  @media (max-width: 600px) {
+    .popup-image-description {
+      flex-direction: column;
+    }
+  }
   .image {
     flex: 1;
     padding: 0px;
@@ -308,7 +312,7 @@ ul.task-list li input[type="checkbox"] {
   }
 
   .description {
-    flex: 6;
+    flex: 5;
     padding: 10px;
     text-align: left;
   }

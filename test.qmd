@@ -24,7 +24,6 @@
         London, United Kingdom
     </div>
     </div>
-    <br>
     <p style="text-align: justify;"></p>
   </div>
 </div>
@@ -55,7 +54,6 @@
         University of Zaragoza, Spain
     </div>
     </div>
-    <br>
     <p style="text-align: justify;"></p>
   </div>
 </div>
@@ -156,8 +154,14 @@
   .popup-image-description {
     display: flex;
     align-items: center;
+    flex-direction: row; /* Default direction */
   }
-
+  /* Change flex direction for screens smaller than 600px */
+  @media (max-width: 600px) {
+    .popup-image-description {
+      flex-direction: column;
+    }
+  }
   .image {
     flex: 1;
     padding: 0px;
@@ -165,7 +169,7 @@
   }
 
   .description {
-    flex: 6;
+    flex: 5;
     padding: 10px;
     text-align: left;
   }

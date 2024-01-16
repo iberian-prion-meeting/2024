@@ -123,13 +123,22 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
-  
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+   
+  <ul>
+  <li><a href="#prion-structure-and-biology" id="toc-prion-structure-and-biology" class="nav-link active" data-scroll-target="#prion-structure-and-biology">Prion Structure and Biology</a></li>
+  <li><a href="#prion-diseases-in-animals" id="toc-prion-diseases-in-animals" class="nav-link" data-scroll-target="#prion-diseases-in-animals">Prion Diseases in Animals</a></li>
+  <li><a href="#prion-prion-like-diseases-in-humans" id="toc-prion-prion-like-diseases-in-humans" class="nav-link" data-scroll-target="#prion-prion-like-diseases-in-humans">Prion &amp; Prion-like Diseases in Humans</a></li>
+  </ul>
+</nav>
+</nav>
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-right" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -148,49 +157,122 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<div style="margin-top: 20px;">
-
-</div>
-
-<h3 class="anchored">Prion Structure and Biology</h3>
-
+<section id="prion-structure-and-biology" class="level3">
+<h3 class="anchored" data-anchor-id="prion-structure-and-biology">Prion Structure and Biology</h3>
 <div class="image-description">
   <div class="image">
     <img src="figures/k2.jpg" alt="keynote0" width="150" height="150" class="rounded-image">
   </div>
   <div class="description">
-    Jan Bieschke (MRC Prion Unit and Institute of Prion diseases, London, United Kingdom).
+    <strong>Jan Bieschke</strong><br>
+    <em>MRC Prion Unit and Institute of Prion diseases</em><br>
+    London, United Kingdom
   </div>
 </div>
 
-<h3 class="anchored">Prion Diseases in Animals</h3>
-
+</section>
+<section id="prion-diseases-in-animals" class="level3">
+<h3 class="anchored" data-anchor-id="prion-diseases-in-animals">Prion Diseases in Animals</h3>
+<!-- Speaker 1 -->
 <div class="image-description">
   <div class="image">
     <img src="figures/k3.jpg" alt="keynote0" width="150" height="150" class="rounded-image">
   </div>
   <div class="description">
-    Alicia Otero (Centro de Encefalopatias y Enfermedades Transmisibles Emergentes, University of Zaragoza).
+    <strong>Alicia Otero</strong><br>
+    <em>Centro de Encefalopatias y Enfermedades Transmisibles Emergentes </em><br>
+    University of Zaragoza, Spain
   </div>
 </div>
 
-<h3 class="anchored">Prion &amp; Prion-like Diseases in Humans</h3>
 
+</section>
+<section id="prion-prion-like-diseases-in-humans" class="level3">
+<h3 class="anchored" data-anchor-id="prion-prion-like-diseases-in-humans">Prion &amp; Prion-like Diseases in Humans</h3>
+
+
+<!-- Speaker 2 -->
 <div class="image-description">
   <div class="image">
     <img src="figures/k1.jpg" alt="keynote0" width="150" height="150" class="rounded-image">
   </div>
   <div class="description">
-    Inga Zerr (Georg-August-Universität, Göttingen, Germany; German Center for Neurodegenerative Diseases).
+    <strong>Inga Zerr</strong><br>
+    <em>German Center for Neurodegenerative Diseases</em><br>
+    Georg-August-Universität, Göttingen, Germany
   </div>
 </div>
 
 <style>
+  /* The popup */
+  .popup-background {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    z-index: 1;
+  }
+  .popup {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 1000px; /* Adjust this value as needed */
+    margin: auto; /* Center the popup if it's smaller than the screen width */
+    width: 100%; /* Full width */   
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    /*background-color: rgb(0.9,0,0); /* Fallback color */
+    background-color: transparent; /*rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+  /* The popup content */
+  .popup-content {
+    position : relative;
+    background-color: #fefefe;
+    margin: auto;
+    z-index : 2;
+    padding: 20px;
+    border: 1px solid #999;
+    border-radius: 15px; /* Rounded corners */
+    width: 80%;
+  }
+
+  /* The close button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
   .image-description {
     display: flex;
     align-items: center;
   }
-
+  .popup-image-description {
+    display: flex;
+    align-items: center;
+    flex-direction: row; /* Default direction */
+  }
+  /* Change flex direction for screens smaller than 600px */
+  @media (max-width: 600px) {
+    .popup-image-description {
+      flex-direction: column;
+    }
+  }
   .image {
     flex: 1;
     padding: 0px;
@@ -198,16 +280,60 @@ ul.task-list li input[type="checkbox"] {
   }
 
   .description {
-    flex: 4;
+    flex: 5;
     padding: 10px;
     text-align: left;
   }
   .rounded-image {
-    border-radius: 50px; /* Adjust the value to control the degree of rounding */
+    border-radius: 20%; /* Adjust the value to control the degree of rounding */
   }
+
 </style>
+<script>
+  // Get all elements with class="image-description" (outside the popups) and attach the click event
+  var descriptions = document.getElementsByClassName("image-description");
+  for (let i = 0; i < descriptions.length; i++) {
+    descriptions[i].onclick = function() {
+      // Open the corresponding popup
+      var popup = document.getElementById("popup" + (i + 1));
+      popup.style.display = "block";
+    }
+  }
+
+  // Get all elements with class="close" and attach the click event
+  var closes = document.getElementsByClassName("close");
+  for (let i = 0; i < closes.length; i++) {
+    closes[i].onclick = function() {
+      // Close the corresponding popup
+      var popup = document.getElementById("popup" + (i + 1));
+      popup.style.display = "none";
+    }
+  }
+  // Get all elements with class="popup-background" and attach the click event
+  var backgrounds = document.getElementsByClassName("popup-background");
+  for (let i = 0; i < backgrounds.length; i++) {
+    backgrounds[i].onclick = function() {
+      // Close the corresponding popup
+      var popup = document.getElementById("popup" + (i + 1));
+      popup.style.display = "none";
+    }
+  }
+  // Move all popups to the body element
+  var popups = Array.from(document.getElementsByClassName("popup"));
+  for (var i = 0; i < popups.length; i++) {
+    document.body.appendChild(popups[i]);
+  }
+
+  // When the user clicks anywhere outside of a popup, close it
+  window.onclick = function(event) {
+    if (event.target.className == "popup") {
+      event.target.style.display = "none";
+    }
+  }
+</script>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
