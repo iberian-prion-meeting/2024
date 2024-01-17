@@ -26,7 +26,6 @@ format:
     page-layout: full
     theme: 
       light: [united, quarto_palette.scss]
-    css: styles.css
     toc: true
     toc-location: left
     toc-title: " "

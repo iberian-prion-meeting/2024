@@ -1,3 +1,3 @@
-  rm -rf docs
-  quarto render
-  mv _site docs
+rm -rf docs
+quarto render
+mv _site docs
