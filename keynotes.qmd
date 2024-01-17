@@ -83,7 +83,7 @@
         <strong style="font-size: larger;">Inga Zerr</strong>
         </div>
     </div>
-        <p style="text-align: justify;">Inga Zerr is neurologist and Professor at the Department of Neurology, University Medical Center, Georg-August University Göttingen and Head of the Neurochemistry Laboratory at the institution. She is Director of the National Reference Center for Human Transmissible Encephalopathies in Germany. Her research focusses on biomarker development and on clinical and therapeutic trials in prion diseases and other dementia.</p>
+        <div class="popup_descr">Inga Zerr is neurologist and Professor at the Department of Neurology, University Medical Center, Georg-August University Göttingen and Head of the Neurochemistry Laboratory at the institution. She is Director of the National Reference Center for Human Transmissible Encephalopathies in Germany. Her research focusses on biomarker development and on clinical and therapeutic trials in prion diseases and other dementia.</div>
   </div>
 </div>
 
@@ -147,14 +147,17 @@
     padding: 0px;
     text-align: left;
   }
-
   .description {
     flex: 5;
     padding: 10px;
     text-align: left;
   }
+  .popup_descr {
+    text-align: justify;
+  }
   .image-description {
     cursor: pointer;
+    max-width: 1000px;
     display: flex;
     align-items: center;
   }
@@ -169,6 +172,10 @@
     display: flex;
     align-items: center;
     flex-direction: column; /* Default direction */
+  }
+
+  .rounded-image {
+    border-radius: 20%; /* Adjust the value to control the degree of rounding */
   }
   /* Change flex direction for screens smaller than 600px */
   @media (max-width: 600px) {
@@ -196,9 +203,6 @@
     }
   }
 
-  .rounded-image {
-    border-radius: 20%; /* Adjust the value to control the degree of rounding */
-  }
 
 </style>
 ```
