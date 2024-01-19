@@ -2,7 +2,8 @@
 title: "Registration"
 ---
 
-The registration form will be published soon.
+To register for the congress, please access [this registration form](https://docs.google.com/forms/d/e/1FAIpQLSezvTsL-kR1efQFeVp0Bk3UNlLhD5CL07A5UGiEeI3wkVC-OA/viewform).
+
 
 ```{=html}
 <!-- - To register in the congress, please access this registration form (deadline XX-XX XYZ 2024). -->
@@ -12,4 +13,3 @@ The registration form will be published soon.
 ```
 
 <img src="figures/prion_fig1.jpg" width="200" height="200">
-
