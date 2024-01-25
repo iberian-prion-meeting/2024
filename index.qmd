@@ -223,7 +223,7 @@ Congress: 23-24.05.2024.
 - Jesús Requena, USC, Spain
 
 
-
+<!-- register now! button cool effect + code on sidebar_mods.css -->
 ```{=html}
 <script>
 window.onload = function() {
