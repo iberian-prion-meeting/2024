@@ -4,6 +4,57 @@ title: "Registration"
 
 To register for the congress, please access [this registration form](https://docs.google.com/forms/d/e/1FAIpQLSezvTsL-kR1efQFeVp0Bk3UNlLhD5CL07A5UGiEeI3wkVC-OA/viewform).
 
+After you correctly filled the form, remember to pay 160€ (here the instructions)
+<!--
+```{=html}
+
+<button id="popupButton">Show Payment Instructions</button>
+
+
+<div id="popup" class="popup">
+  
+  <div class="popup-content">
+    <span id="closeButton">&times;</span>
+    <p>Banco Santander Central Hispano<br>
+    Address: Rúa Caldeirería 54-56, 15703 Santiago de Compostela<br>
+    Account holder: University of Santiago de Compostela<br>
+    Account number: 0049 2584 90 2214002210<br>
+    IBAN: ES40 0049 2584 9022 1400 2210<br>
+    SWIFT: BSCHESMM</p>
+  </div>
+</div>
+
+<script>
+  // Get the popup and the button
+  var popup = document.getElementById("popup");
+  var button = document.getElementById("popupButton");
+
+  // When the user clicks the button, open the popup
+button.onclick = function() {
+    if (popup.style.display === "block") {
+        popup.style.display = "none";
+    } else {
+        popup.style.display = "block";
+    }
+}
+  // Get the close button
+  var closeButton = document.getElementById("closeButton");
+
+  // When the user clicks the close button, close the popup
+  closeButton.onclick = function() {
+    popup.style.display = "none";
+  }
+</script>
+```
+<!---
+Banco Santander Central Hispano
+Address: Rúa Caldeirería 54-56, 15703 Santiago de Compostela
+Account holder: University of Santiago de Compostela
+Account number: 0049 2584 90 2214002210
+IBAN: ES40 0049 2584 9022 1400 2210
+SWIFT: BSCHESMM
+ -->
+
 
 ```{=html}
 <!-- - To register in the congress, please access this registration form (deadline XX-XX XYZ 2024). -->

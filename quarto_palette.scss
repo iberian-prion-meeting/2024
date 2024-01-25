@@ -7,7 +7,11 @@ $link-color: #80c0cf;
 //$navbar-bg: #80c0cf;
 $navbar-bg: #0299ce;
 
-
 // Code blocks
 $code-block-bg-alpha: -.8;
-    
+
+// Navbar link styles
+.navbar a:active {
+    color: black; // Change the color to your desired color
+    background-color: #80c0cf; // Set the background color to the value of $navbar-bg
+}

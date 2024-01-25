@@ -9,24 +9,63 @@ website:
     background: primary
     search: true
     pinned: true
+    hoverable: true
     left:
       - text: "Home"
         file: index.qmd
-      - registration.qmd
-      - abstract.qmd
-      - venue.qmd
-      - accommodation.qmd
-      - text: "Speakers"
+      - text: "Registration"
+        href: registration.qmd
+      - text: "Abstract Submission"
+        href: abstract.qmd
+      - text: "Confirmed Speakers"
         file: keynotes.qmd
-      - text: "About Santiago"
-        file: visitsantiago.qmd
+      - text: "OrgSci Committee"
+        href: committee.qmd
+      - text: "Practical Infos"
+        menu:
+          - venue.qmd
+          - accommodation.qmd
+          - text: "About Santiago"
+            file: visitsantiago.qmd
+    tools:
+      - icon: twitter
+        href: https://twitter.com/IberianPrion
+      - icon: instagram
+        href: https://www.instagram.com/iberianprionconference
+      - icon: linkedin
+        href: https://linkedin.com/company/iberianprionconference
+  sidebar:
+    logo: figures/logo24_cut.png
+    style: "floating"
+    search: true
+    contents:
+      - text: 'REGISTER NOW!'
+        file: registration.qmd
+      - section: "About the Conference"
+        contents:
+          - text: 'Welcome!'
+            file: index.qmd
+          - text: 'Speakers'
+            file: keynotes.qmd
+          - committee.qmd
+      - section: "How to move in Santiago"
+        contents:
+          - text: 'Coming to Santiago'
+            file: venue.qmd#getting-there
+          - visitsantiago.qmd
+          - accommodation.qmd
+          - venue.qmd
+
+    center-tools: true
+    tool-size: large
 
 format:
   html:
+    css: ['navbar_hover.css']
     page-layout: full
     theme: 
       light: [united, quarto_palette.scss]
     toc: true
-    toc-location: left
+    toc-location: right
     toc-title: " "
 
