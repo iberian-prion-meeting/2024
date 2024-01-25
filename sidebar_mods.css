@@ -1,0 +1,30 @@
+.register-button {
+  animation: color-change 2s infinite;
+  font-weight: bold;
+  text-align: center;
+  padding-left: 15%;
+}
+  
+@keyframes color-change {
+  0% { color: #203dce; }
+  50% { color: #2099ce; }
+  100% { color: #958b6a; }
+}
+.sidebar.sidebar-navigation>* {
+  padding-top: 10px;
+}
+
+/* ADD this code at the end of .qmd
+```{=html}
+<script>
+window.onload = function() {
+  var sidebarLinks = document.querySelectorAll('.sidebar-item-container a');
+  for (var i = 0; i < sidebarLinks.length; i++) {
+    if (sidebarLinks[i].textContent.trim() === 'REGISTER NOW!') {
+      sidebarLinks[i].classList.add('register-button');
+    }
+  }
+};
+</script>
+```
+*/

@@ -2,6 +2,8 @@
 title: "12th Iberian Congress on Prions"
 logo: figures/logo24_3.png
 ---
+
+
 ```{=html}
 <div class="row">
   <a href="visitsantiago.qmd" class="location-button">
@@ -221,13 +223,16 @@ Congress: 23-24.05.2024.
 - Jesús Requena, USC, Spain
 
 
+
 ```{=html}
 <script>
-  window.onload = function() {
-    var sections = document.querySelectorAll('.quarto-nav-section');
-    sections.forEach(function(section) {
-      section.classList.remove('quarto-nav-section-open');
-      section.classList.add('quarto-nav-section-closed');
-    });
-  };
+window.onload = function() {
+  var sidebarLinks = document.querySelectorAll('.sidebar-item-container a');
+  for (var i = 0; i < sidebarLinks.length; i++) {
+    if (sidebarLinks[i].textContent.trim() === 'REGISTER NOW!') {
+      sidebarLinks[i].classList.add('register-button');
+    }
+  }
+};
 </script>
+```

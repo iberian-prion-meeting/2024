@@ -37,7 +37,7 @@ website:
   sidebar:
     logo: figures/logo24_cut.png
     style: "floating"
-    search: true
+    search: false
     contents:
       - text: 'REGISTER NOW!'
         file: registration.qmd
@@ -61,11 +61,10 @@ website:
 
 format:
   html:
-    css: ['navbar_hover.css']
+    css: ['navbar_hover.css', 'sidebar_mods.css']
     page-layout: full
     theme: 
       light: [united, quarto_palette.scss]
     toc: true
     toc-location: right
     toc-title: " "
-
