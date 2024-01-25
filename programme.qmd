@@ -1,7 +1,101 @@
 ---
 title: "Programme"
 ---
+### 23 May 2024
 
+```{=html}
+<style>
+  .custom-table th:nth-child(1),
+  .custom-table td:nth-child(1) {
+    width: 20px;
+  }
+
+  .custom-table th:nth-child(2),
+  .custom-table td:nth-child(2) {
+    width: 500px;
+  }
+  .programm-table td.session-span {
+    background-color: #4497c9;
+    color: white;
+  }
+  .programm-table td.separation-span {
+    background-color: #b0e6ff;
+    color: white;
+    font-size: 2px;
+  }
+</style>
+
+<table class="programm-table">
+  <thead>
+    <tr>
+      <th>Time</th>
+      <th>Title</th>
+      <th>Speaker</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td colspan="3" class="separation-span"></td>
+    </tr>
+    <tr>
+      <td>8:45-9:30</td>
+      <td>Registration and poster set-up</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>9:30-11:00</td>
+      <td><strong>Welcome</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td colspan="3" class="session-span">SESSION 1: Prions!</td>
+    </tr>
+    <tr>
+      <td>10:00-11:45</td>
+      <td>Prions! What about them?</td>
+      <td>Dr. John Doe</td>
+    </tr>
+  </tbody>
+</table>
+```
+
+### 24 May 2024
+```{=html}
+<table class="programm-table">
+  <thead>
+    <tr>
+      <th>Time</th>
+      <th>Title</th>
+      <th>Speaker</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td colspan="3" class="separation-span"></td>
+    </tr>
+    <tr>
+      <td>8:45-9:30</td>
+      <td>Registration and poster set-up</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>9:30-11:00</td>
+      <td><strong>Welcome</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td colspan="3" class="session-span">SESSION 1: Prions!</td>
+    </tr>
+    <tr>
+      <td>10:00-11:45</td>
+      <td>Prions! What about them?</td>
+      <td>Dr. John Doe</td>
+    </tr>
+  </tbody>
+</table>
+```
+
+<!-- old table
 ##  11 May 2023  {-}
 
 <div id="tshnmaraji" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
@@ -188,3 +282,16 @@ title: "Programme"
   
 </table>
 </div>
+-->
+```{=html}
+<script>
+window.onload = function() {
+  var sidebarLinks = document.querySelectorAll('.sidebar-item-container a');
+  for (var i = 0; i < sidebarLinks.length; i++) {
+    if (sidebarLinks[i].textContent.trim() === 'REGISTER NOW!') {
+      sidebarLinks[i].classList.add('register-button');
+    }
+  }
+};
+</script>
+```
