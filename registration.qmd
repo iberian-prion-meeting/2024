@@ -4,8 +4,8 @@ title: "Registration"
 
 To register for the congress, please access [this registration form](https://docs.google.com/forms/d/e/1FAIpQLSezvTsL-kR1efQFeVp0Bk3UNlLhD5CL07A5UGiEeI3wkVC-OA/viewform).
 
-After you correctly filled the form, remember to pay 160€ (here the instructions)
-<!--
+<!--After you correctly filled the form, remember to pay 160€ (here the instructions)
+
 ```{=html}
 
 <button id="popupButton">Show Payment Instructions</button>
