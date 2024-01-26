@@ -2,6 +2,13 @@
 title: "Submit abstract"
 ---
 
+Find the abstract template to apply for a poster session or short talk [here](Abstract_Template_Submisison.docx)!
+
+### Instructions
+- Abstracts must be in English
+- Max. 350 words
+- Upload your abstract to [this form](https://forms.gle/SpxhraLCgUY8SPF86) as a word file (.doc .docx)
+- Identify the document with the name of the person presenting the abstract (e.g.: name_surname.doc)
 The submission form will be published soon.
 
 ```{=html}

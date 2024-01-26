@@ -41,6 +41,8 @@ website:
     contents:
       - text: 'REGISTER NOW!'
         file: registration.qmd
+      - text: 'UPLOAD YOUR ABSTRACT!'
+        file: abstract.qmd
       - section: "About the Conference"
         contents:
           - text: 'Welcome!'

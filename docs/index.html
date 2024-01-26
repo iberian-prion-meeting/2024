@@ -162,6 +162,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">REGISTER NOW!</span></a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./abstract.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">UPLOAD YOUR ABSTRACT!</span></a>
+  </div>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
@@ -472,6 +478,9 @@ ul.task-list li input[type="checkbox"] {
 window.onload = function() {
   var sidebarLinks = document.querySelectorAll('.sidebar-item-container a');
   for (var i = 0; i < sidebarLinks.length; i++) {
+    if (sidebarLinks[i].textContent.trim() === 'UPLOAD YOUR ABSTRACT!') {
+      sidebarLinks[i].classList.add('abstract-button');
+    }
     if (sidebarLinks[i].textContent.trim() === 'REGISTER NOW!') {
       sidebarLinks[i].classList.add('register-button');
     }

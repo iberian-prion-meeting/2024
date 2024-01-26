@@ -4,17 +4,21 @@
   text-align: center;
   padding-left: 15%;
 }
+
+.abstract-button {
+  font-weight: bold;
+}
   
 @keyframes color-change {
   0% { color: #203dce; }
   50% { color: #2099ce; }
   100% { color: #958b6a; }
 }
-.sidebar.sidebar-navigation>* {
+/*.sidebar.sidebar-navigation>* {
   padding-top: 10px;
 }
 
-/* ADD THIS TO THE CODE AT THE END TO ADD register-button CLASS .qmd
+ ADD THIS TO THE CODE AT THE END TO ADD register-button CLASS .qmd
 ```{=html}
 <script>
 window.onload = function() {

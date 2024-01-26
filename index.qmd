@@ -229,6 +229,9 @@ Congress: 23-24.05.2024.
 window.onload = function() {
   var sidebarLinks = document.querySelectorAll('.sidebar-item-container a');
   for (var i = 0; i < sidebarLinks.length; i++) {
+    if (sidebarLinks[i].textContent.trim() === 'UPLOAD YOUR ABSTRACT!') {
+      sidebarLinks[i].classList.add('abstract-button');
+    }
     if (sidebarLinks[i].textContent.trim() === 'REGISTER NOW!') {
       sidebarLinks[i].classList.add('register-button');
     }
