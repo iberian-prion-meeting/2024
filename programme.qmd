@@ -92,9 +92,11 @@ title: "Programme"
     </tr>
   </thead>
   <tbody>
+    <!--
     <tr>
     <td colspan="3" class="separation-span"></td>
     </tr>
+    -->
     <tr>
       <td>8:45-9:30</td>
       <td>Registration and poster set-up</td>
