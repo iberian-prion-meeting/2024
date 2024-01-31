@@ -285,8 +285,11 @@ ul.task-list li input[type="checkbox"] {
   }
   .programm-table td.separation-span {
     background-color: #b0e6ff;
-    color: white;
-    font-size: 2px;
+    /*color: white;
+    font-size: 2px;*/
+  }
+  .programm-table td.bold-span {
+    font-weight: bold;
   }
 </style>
 
@@ -309,7 +312,7 @@ ul.task-list li input[type="checkbox"] {
 <td></td>
 </tr>
 <tr class="odd">
-<td>9:30-11:00</td>
+<td>9:30-10:00</td>
 <td><strong>Welcome</strong></td>
 <td></td>
 </tr>
@@ -317,9 +320,28 @@ ul.task-list li input[type="checkbox"] {
 <td colspan="3" class="session-span">SESSION 1: Prions!</td>
 </tr>
 <tr class="odd">
-<td>10:00-11:45</td>
-<td>Prions! What about them?</td>
-<td>Dr. John Doe</td>
+<td class="bold-span">10:00-10:45</td>
+<td class="bold-span">Prions! What about them?</td>
+<td class="bold-span">Dr. John Doe</td>
+</tr>
+<tr class="even">
+<td>10:45-11:00</td>
+<td>Short talk 1</td>
+<td><a href="./abstract.html">Could be you!</a></td>
+</tr>
+<tr class="odd">
+<td>11:00-11:15</td>
+<td>Short talk 2</td>
+<td><a href="./abstract.html">Could be you!</a></td>
+</tr>
+<tr class="even">
+<td class="separation-span bold-span">11:15-11:30</td>
+<td colspan="2" class="separation-span bold-span">Coffee Break!</td>
+</tr>
+<tr class="odd">
+<td>11:30-11:45</td>
+<td>Short talk 3</td>
+<td><a href="./abstract.html">Could be you!</a></td>
 </tr>
 </tbody>
 </table>
