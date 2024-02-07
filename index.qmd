@@ -10,12 +10,12 @@ logo: figures/logo24_3.png
     <img src="figures/pin-logo.png" alt="pin" width="20" height="20">
     Santiago de Compostela, Spain
   </a>
-  <div class="cal-text">
+  <a href="programme.qmd" class="cal-text">
     <img src="figures/cal-logo.png" alt="pin" width="20" height="20">
     <strong>23-24 May 2024</strong>
     <!-- <a target="_blank" class="hover-additional-text" href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=N3NkOXFhM282M3E4cGIwYWdpaGc5MzhlNGIgZGluby5nYXNwYXI3QG0&tmsrc=dino.gaspar7%40gmail.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_it.gif"> 
     </a><div class="hover-additional-text"><strong>save the date!</strong></div> -->
-  </div>
+  </a>
   <div class="social-links-sidebar">
   <a href="https://www.instagram.com/iberianprionconference" target="_blank">
     <img src="figures/ig-icon.png" alt="instagram">
@@ -194,7 +194,7 @@ The Organizing Committee
 
 ### Important dates
 
-Abstract submission deadline: to be announced.
+Abstract submission deadline: 31st March 2024.
 
 Registration deadline: to be announced.
 

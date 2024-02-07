@@ -4,6 +4,23 @@ title: "Submit abstract"
 
 Find the abstract template to apply for a poster session or short talk [here](Abstract_Template_Submisison.docx)!
 
+```{=html}
+<style>
+  .prettier {
+    border: #0000ff;
+    /* display: flex; */
+    align-items: center;
+    background-color: #dde9f3;
+    border-radius: 5px;
+    padding: 9px;
+    font-size: 18px;
+  }
+</style>
+
+<strong class='prettier'>Deadline: 23:59:59 - 31st March 2024</strong>
+
+```
+
 ### Instructions
 - Abstracts must be in English
 - Max. 350 words
