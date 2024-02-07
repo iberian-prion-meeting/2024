@@ -19,10 +19,10 @@ website:
         href: abstract.qmd
       - text: "Confirmed Speakers"
         file: keynotes.qmd
-      - text: "OrgSci Committee"
-        href: committee.qmd
       - text: "Programme"
         file: programme.qmd
+      - text: "OrgSci Committee"
+        href: committee.qmd
       - text: "Practical Infos"
         menu:
           - venue.qmd

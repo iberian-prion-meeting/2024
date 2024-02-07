@@ -10,4 +10,8 @@ Best poster and best oral communication awards:
 
 The scientific committee will evaluate all posters and oral presentations and awards will be given for those selected as the best.
 
+<img src="figures/prion_fig1.jpg" width="200" height="200">
+<img src="figures/prion_fig2.jpg" width="200" height="200">
 <img src="figures/prion_fig3.jpg" width="200" height="200">
+<img src="figures/fig4.png" width="200" height="200">
+<img src="figures/fig5.tif" width="200" height="200">

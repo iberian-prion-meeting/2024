@@ -1,12 +1,7 @@
-// PALETTE TO CHANGE THE COLORS TO THE ONE OF GALICIA
-// NO DARK MODE (will heavily add javascript code to the html too much work)
 /*-- scss:defaults --*/
 // Base document colors
 $body-bg: white;
-//$body-color: black;
-//$link-color: #75AADB;
 $link-color: #80c0cf;
-//$navbar-bg: #80c0cf;
 $navbar-bg: #0299ce;
 
 // Code blocks
@@ -14,7 +9,7 @@ $code-block-bg-alpha: -.8;
 
 // Navbar link styles
 .navbar a:active {
-    color: white; // Change the color to your desired color
-    background-color: #2099ce; // Set the background color to the value of $navbar-bg
+    color: white; 
+    background-color: #2099ce;
 }
 

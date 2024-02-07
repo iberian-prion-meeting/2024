@@ -28,53 +28,31 @@ Account holder: University of Santiago de Compostela<br>
 Account number: 0049 2584 90 2214002210<br>
 IBAN: ES40 0049 2584 9022 1400 2210<br>
 SWIFT: BSCHESMM</p>
-<!--
+
 ```{=html}
 <style>
-  .prettyButton {
-    border: #0000ff;
-    /* display: flex; */
-    align-items: center;
-    background-color: #dde9f3;
-    border-radius: 5px;
-    padding: 6px;
-    font-size: 18px;
+  .carosello-prionico{
+    gap: 10px;
+  }
+
+  .carosello-prionico img {
+    height: 300px;
   }
 </style>
-<div class="prettyButton">
-<button  id="popupButton"><strong>Instructions</strong></button>
 
-<div id="popup" class="popup">
-  <div class="popup-content">
-    <strong>Important: please indicate "Iberian Prion Conference & your name"</strong>
-    <p>Banco Santander Central Hispano<br>
-    Address: Rúa Caldeirería 54-56, 15703 Santiago de Compostela<br>
-    Account holder: University of Santiago de Compostela<br>
-    Account number: 0049 2584 90 2214002210<br>
-    IBAN: ES40 0049 2584 9022 1400 2210<br>
-    SWIFT: BSCHESMM</p>
-  </div>
-</div>
-</div>
+<div id="randomizzazione-prionica" class="carosello-prionico"></div>
+
 <script>
-  // Get the popup and the button
-  var popup = document.getElementById("popup");
-  var button = document.getElementById("popupButton");
-
-  // Set the popup display to "none" by default
-  popup.style.display = "none";
-
-  // When the user clicks the button, toggle the popup display
-  button.onclick = function() {
-    if (popup.style.display === "block") {
-      popup.style.display = "none";
-    } else {
-      popup.style.display = "block";
-    }
-  }
+  var images = [
+    "figures/fig4.jpg",
+    "figures/fig5.jpg",
+    "figures/prion_fig2.jpg",
+    "figures/prion_fig1.jpg",
+    "figures/prion_fig3.jpg"
+  ];
+  var randomImage = images[Math.floor(Math.random() * images.length)];
+  var imgElement = document.createElement('img');
+  imgElement.src = randomImage;
+  document.getElementById('randomizzazione-prionica').appendChild(imgElement);
 </script>
-
 ```
--->
-<br>
-<img src="figures/prion_fig1.jpg" width="200" height="200">

@@ -1,11 +1,11 @@
-.strobelight {
+.strobelight { /*added to sidebar with <style> block*/
   animation: color-change 2s infinite;
   font-weight: bold;
   text-align: center;
   padding-left: 15%;
 }
 
-.abstract-button {
+.abstract-button { /*added to sidebar with <style> block*/
   font-weight: bold;
 }
   
@@ -14,21 +14,3 @@
   50% { color: #2099ce; }
   100% { color: #958b6a; }
 }
-/*.sidebar.sidebar-navigation>* {
-  padding-top: 10px;
-}
-
- ADD THIS TO THE CODE AT THE END TO ADD register-button CLASS .qmd
-```{=html}
-<script>
-window.onload = function() {
-  var sidebarLinks = document.querySelectorAll('.sidebar-item-container a');
-  for (var i = 0; i < sidebarLinks.length; i++) {
-    if (sidebarLinks[i].textContent.trim() === 'REGISTER NOW!') {
-      sidebarLinks[i].classList.add('register-button');
-    }
-  }
-};
-</script>
-```
-*/
