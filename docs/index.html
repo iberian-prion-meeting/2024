@@ -325,6 +325,7 @@ ul.task-list li input[type="checkbox"] {
     flex-direction: row;
     gap: 15px;
     align-items: center;
+    margin-top: 10px;
   } 
   .location-button {
     text-decoration : none;
@@ -434,6 +435,31 @@ ul.task-list li input[type="checkbox"] {
     }
   }
 </style>
+
+<style>
+  .prettier {
+    border: #0000ff;
+    /* display: flex; */
+    align-items: center;
+    background-color: #dde9f3;
+    border-radius: 5px;
+    padding: 6px;
+    /*font-size: 24px;*/
+    color : #474747;
+    text-decoration : none;
+  }
+  .prettier2 {
+    text-decoration : none;
+    border: 2px solid #dde9f3;
+    padding : 4px;
+    border-radius: 5px;
+  }
+</style>
+<div class="row">
+  <a href="./registration.html" class="prettier"><strong>Registration fee 160€</strong></a>
+  <a href="./abstract.html" class="prettier2 strobelight"><strong>Abstract submission deadline March 31st</strong></a>
+</div>
+
 <section id="sponsors" class="level3">
 <h3 class="anchored" data-anchor-id="sponsors">Sponsors</h3>
 <p><img src="figures/usc.svg"> <img src="figures/Logo-Proquinorte.avif"> <img src="figures/vjl.jpg" style="zoom:60%;"></p>
@@ -488,7 +514,7 @@ window.onload = function() {
       sidebarLinks[i].classList.add('abstract-button');
     }
     if (sidebarLinks[i].textContent.trim() === 'REGISTER NOW!') {
-      sidebarLinks[i].classList.add('register-button');
+      sidebarLinks[i].classList.add('strobelight');
     }
   }
 };

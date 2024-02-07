@@ -58,6 +58,7 @@ logo: figures/logo24_3.png
     flex-direction: row;
     gap: 15px;
     align-items: center;
+    margin-top: 10px;
   } 
   .location-button {
     text-decoration : none;
@@ -167,7 +168,33 @@ logo: figures/logo24_3.png
     }
   }
 </style>
+
+<style>
+  .prettier {
+    border: #0000ff;
+    /* display: flex; */
+    align-items: center;
+    background-color: #dde9f3;
+    border-radius: 5px;
+    padding: 6px;
+    /*font-size: 24px;*/
+    color : #474747;
+    text-decoration : none;
+  }
+  .prettier2 {
+    text-decoration : none;
+    border: 2px solid #dde9f3;
+    padding : 4px;
+    border-radius: 5px;
+  }
+</style>
+<div class='row'>
+  <a href='registration.qmd' class='prettier'><strong>Registration fee 160€</strong></a>
+  <a href='abstract.qmd' class='prettier2 strobelight'><strong>Abstract submission deadline March 31st</strong></a>
+</div>
+
 ```
+
 ### Sponsors 
 <img src="figures/usc.svg"> <img src="figures/Logo-Proquinorte.avif"> <img src="figures/vjl.jpg" style="zoom:60%;">
 
@@ -235,7 +262,7 @@ window.onload = function() {
       sidebarLinks[i].classList.add('abstract-button');
     }
     if (sidebarLinks[i].textContent.trim() === 'REGISTER NOW!') {
-      sidebarLinks[i].classList.add('register-button');
+      sidebarLinks[i].classList.add('strobelight');
     }
   }
 };
