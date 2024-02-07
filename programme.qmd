@@ -5,18 +5,18 @@ title: "Programme"
 
 ```{=html}
 <style>
-  .custom-table th:nth-child(1),
+
   .custom-table td:nth-child(1) {
     width: 20px;
   }
 
-  .custom-table th:nth-child(2),
   .custom-table td:nth-child(2) {
     width: 500px;
   }
   .programm-table td.session-span {
     background-color: #4497c9;
     color: white;
+    font-weight: bold;
   }
   .programm-table td.separation-span {
     background-color: #b0e6ff;
@@ -37,9 +37,10 @@ title: "Programme"
     </tr>
   </thead>
   <tbody>
+    <!--
     <tr>
     <td colspan="3" class="separation-span"></td>
-    </tr>
+    </tr> -->
     <tr>
       <td>13:00-14:00</td>
       <td>Registration, poster set-up and welcome snack</td>
@@ -55,8 +56,7 @@ title: "Programme"
     </tr>
       <tr>
       <td>14:30-14:45</td>
-      <td></td>
-      <td>Session introduction</a></td>
+      <td colspan="2">Session introduction</td>
     </tr>
     <tr>
       <td class="bold-span">14:45-15:30</td>
@@ -97,42 +97,21 @@ title: "Programme"
       <td>Short talk 6</td>
       <td><a href="./abstract.html">Could be you!</a></td>
     </tr>
-      <tr > 
+    <tr> 
       <td class="separation-span bold-span">17:30-18:15</td>
       <td class="separation-span bold-span" colspan="2">Outreach activity</td>
     </tr>
+    <tr>
       <td class="separation-span bold-span">20:30</td>
       <td class="separation-span bold-span" colspan="2">Social activity</td>
-    </td>
+    </tr>
   </tbody>
 </table>
 ```
 
 ### 24 May 2024
 ```{=html}
-<style>
-  .custom-table th:nth-child(1),
-  .custom-table td:nth-child(1) {
-    width: 20px;
-  }
 
-  .custom-table th:nth-child(2),
-  .custom-table td:nth-child(2) {
-    width: 500px;
-  }
-  .programm-table td.session-span {
-    background-color: #4497c9;
-    color: white;
-  }
-  .programm-table td.separation-span {
-    background-color: #b0e6ff;
-    /*color: white;
-    font-size: 2px;*/
-  }
-  .programm-table td.bold-span {
-    font-weight: bold;
-  }
-</style>
 
 <table class="programm-table">
   <thead>
@@ -143,16 +122,16 @@ title: "Programme"
     </tr>
   </thead>
   <tbody>
+    <!--
     <tr>
     <td colspan="3" class="separation-span"></td>
-    </tr>
+    </tr> -->
     <tr>
       <td colspan="3" class="session-span">SESSION 2: Animal prion diseases</td>
     </tr>
     <tr>
       <td>09:45-10:00</td>
-      <td></td>
-      <td>Session introduction</a></td>
+      <td colspan="2">Session introduction</td>
     </tr>
     <tr>
     <td class="bold-span">10:00-10:45</td>
@@ -174,7 +153,7 @@ title: "Programme"
       <td>Short talk 9</td>
       <td><a href="./abstract.html">Could be you!</a></td>
     </tr>
-    <tr > 
+    <tr> 
       <td class="separation-span bold-span">11:30-12:00</td>
       <td class="separation-span bold-span" colspan="2">Coffee Break + Posters!</td>
     </tr>
@@ -202,8 +181,7 @@ title: "Programme"
     </tr>
     <tr>
       <td>15:00-15:15</td>
-      <td></td>
-      <td>Session introduction</a></td>
+      <td colspan="2">Session introduction</td>
     </tr>
     <tr>
       <td class="bold-span">15:15-16:00</td>
@@ -266,10 +244,11 @@ title: "Programme"
       <td>19:15-19:30</td>
       <td>Farewell</td>
       <td></td>
-    </tr> 
+    </tr>
+    <tr> 
       <td class="separation-span bold-span">20:30</td>
       <td class="separation-span bold-span" colspan="2">Conferece Symposium (networking; food will be served)</td>
-    </td>
+    </tr>
   </tbody>
 </table>
 ```

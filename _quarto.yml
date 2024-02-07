@@ -21,6 +21,8 @@ website:
         file: keynotes.qmd
       - text: "OrgSci Committee"
         href: committee.qmd
+      - text: "Programme"
+        file: programme.qmd
       - text: "Practical Infos"
         menu:
           - venue.qmd
