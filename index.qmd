@@ -196,11 +196,71 @@ logo: figures/logo24_3.png
 ```
 
 ### Sponsors 
-<img src="figures/usc.svg"> <img src="figures/Logo-Proquinorte.avif"> <img src="figures/vjl.jpg" style="zoom:60%;">
+<!--a href="https://www.usc.gal/en" target="_blank"><img src="figures/usc.svg" style="zoom: 60%;" /></a>
+<a href="https://www.proquinorte.com/" target="_blank"><img src="figures/Logo-Proquinorte.avif" style="zoom: 60%;" /></a>
+<a href="path_to_larger_image3.jpg" target="_blank"><img src="figures/vjl.jpg" style="zoom: 60%;" /></a>
+<a href="https://www.celtaingenieros.com/" target="_blank"><img src="figures/c.jpg" style="zoom: 60%;" /></a>
+<br>-->
+```{=html}
+<style>
+  .sponsors a:hover img {
+    transform: scale(1.05);
+    gap: 20px;
+  }
+
+  .sponsors {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    flex-wrap : wrap; 
+    gap: 15px; /* Adjust spacing between items */
+  }
+  /*.cal-text:hover {
+    content: "This is the text block that appears when hovering.";
+    display: block;
+    background-color: #0ff;
+    color: #0299ce;
+    padding: 10px;
+    border-radius: 5px;
+    /*position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+  }
+  */
+
+  .sponsors a {
+    display: flex;
+    flex-wrap: wrap; /* Wrap cards to the next line if necessary */
+    gap: 10px; /* Adjust spacing between cards */
+  }
+  .sponsors img {
+    height: 90px;
+  }
+
+  @media (max-width: 600px) {
+    .sponsors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    }
+  }
+</style>
+<!-- EACH ROW A SPONSOR!-->
+<div class="sponsors">
+<a href="https://www.usc.gal/en" target="_blank"><img src="figures/usc.svg"  /></a>
+<a href="https://www.proquinorte.com/" target="_blank"><img src="figures/Logo-Proquinorte.avif"  /></a>
+<a href="https://veterinaryresearch.biomedcentral.com/" target="_blank"><img src="figures/vjl.jpg" /></a>
+<a href="https://www.celtaingenieros.com/" target="_blank"><img src="figures/c.jpg"  /></a>
+</div>
+```
 
 ### Welcome
 
-Welcome to the 12th Iberian Prion Congress at the Universidad de Santiago - Galicia!
+Welcome to the 12th Iberian Prion Congress at the U niversidad de Santiago - Galicia!
 
 It is with great pleasure that we gather here today, over 20 years since the first case of BSE was diagnosed in Spain, marking a significant turning point in our professional careers. The impact of that event shaped our determination to unravel the mysteries of prion diseases, which continue to pose immense challenges to patients and researchers alike. While a cure remains elusive, the past two decades have witnessed remarkable advancements in the field of prion science.
 

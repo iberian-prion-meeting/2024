@@ -462,7 +462,65 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="sponsors" class="level3">
 <h3 class="anchored" data-anchor-id="sponsors">Sponsors</h3>
-<p><img src="figures/usc.svg"> <img src="figures/Logo-Proquinorte.avif"> <img src="figures/vjl.jpg" style="zoom:60%;"></p>
+<!--a href="https://www.usc.gal/en" target="_blank"><img src="figures/usc.svg" style="zoom: 60%;" /></a>
+<a href="https://www.proquinorte.com/" target="_blank"><img src="figures/Logo-Proquinorte.avif" style="zoom: 60%;" /></a>
+<a href="path_to_larger_image3.jpg" target="_blank"><img src="figures/vjl.jpg" style="zoom: 60%;" /></a>
+<a href="https://www.celtaingenieros.com/" target="_blank"><img src="figures/c.jpg" style="zoom: 60%;" /></a>
+<br>-->
+<style>
+  .sponsors a:hover img {
+    transform: scale(1.05);
+    gap: 20px;
+  }
+
+  .sponsors {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    flex-wrap : wrap; 
+    gap: 15px; /* Adjust spacing between items */
+  }
+  /*.cal-text:hover {
+    content: "This is the text block that appears when hovering.";
+    display: block;
+    background-color: #0ff;
+    color: #0299ce;
+    padding: 10px;
+    border-radius: 5px;
+    /*position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+  }
+  */
+
+  .sponsors a {
+    display: flex;
+    flex-wrap: wrap; /* Wrap cards to the next line if necessary */
+    gap: 10px; /* Adjust spacing between cards */
+  }
+  .sponsors img {
+    height: 90px;
+  }
+
+  @media (max-width: 600px) {
+    .sponsors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    }
+  }
+</style>
+<!-- EACH ROW A SPONSOR!-->
+<div class="sponsors">
+<a href="https://www.usc.gal/en" target="_blank"><img src="figures/usc.svg"></a>
+<a href="https://www.proquinorte.com/" target="_blank"><img src="figures/Logo-Proquinorte.avif"></a>
+<a href="https://veterinaryresearch.biomedcentral.com/" target="_blank"><img src="figures/vjl.jpg"></a>
+<a href="https://www.celtaingenieros.com/" target="_blank"><img src="figures/c.jpg"></a>
+</div>
 </section>
 <section id="welcome" class="level3">
 <h3 class="anchored" data-anchor-id="welcome">Welcome</h3>
