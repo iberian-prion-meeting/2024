@@ -71,6 +71,8 @@ logo: figures/logo24_3.png
     background-color: #dde9f3;
     border-radius: 5px;
     padding : 6px;
+    color : currentcolor;
+    text-decoration : none;
   }
 
   .hover-additional-text {
@@ -194,9 +196,9 @@ The Organizing Committee
 
 ### Important dates
 
-Abstract submission deadline: 31st March 2024.
+Abstract submission deadline: [**31st March 2024**](abstract.qmd).
 
-Registration deadline: to be announced.
+Registration deadline: [**to be announced**](registration.qmd).
 
 Congress: 23-24.05.2024.
 

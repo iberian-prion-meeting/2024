@@ -2,7 +2,7 @@
 title: "Submit abstract"
 ---
 
-Find the abstract template to apply for a poster session or short talk [here](Abstract_Template_Submisison.docx)!
+Find the abstract template to apply for a poster session or short talk [**here**](Abstract_Template_Submisison.docx)!
 
 ```{=html}
 <style>
