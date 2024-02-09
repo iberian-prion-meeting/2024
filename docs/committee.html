@@ -459,28 +459,28 @@ ul.task-list li input[type="checkbox"] {
 -->
 </div>
 
-
-
 <style>
   .image-description-container {
     display: flex;
-    flex-wrap: wrap; /* Wrap cards to the next line if necessary */
-    gap: 20px; /* Adjust spacing between cards */
+    flex-wrap: wrap;
+    gap: 20px;
   }
 
   .image-description {
     flex: 1; /* Equal width for all cards */
     padding: 20px;
     text-align: left;
-    /* font-size: 16px; /* Increase the font size */
+    /* font-size: 16px; */
   }
 
   .image {
-    max-width: 100%; /* Ensure images scale appropriately */
+    max-width: 100%;
+    position: relative; /* Add this line to enable z-index */
   }
   .rounded-image {
-    border-radius: 15px; /* Adjust the value to control the degree of rounding */
+    border-radius: 15px;/* 50%;*/
   }
+
 </style>
 
 

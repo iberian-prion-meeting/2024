@@ -1,4 +1,4 @@
-#### Poster Specifications #### 
+#### Poster Specifications 
 
 - Authors of posters are totally free in the design of their posters. 
 - The size of the poster should not exceed the format A0 vertically oriented (width 84,1 cm x height 118,9 cm). 
@@ -10,8 +10,38 @@ Best poster and best oral communication awards:
 
 The scientific committee will evaluate all posters and oral presentations and awards will be given for those selected as the best.
 
-<img src="figures/prion_fig1.jpg" width="200" height="200">
-<img src="figures/prion_fig2.jpg" width="200" height="200">
-<img src="figures/prion_fig3.jpg" width="200" height="200">
-<img src="figures/fig4.png" width="200" height="200">
-<img src="figures/fig5.tif" width="200" height="200">
+```{=html}
+<style>
+  .carosello-prionico{
+    gap: 10px;
+  }
+
+  .carosello-prionico img {
+    height: 300px;
+  }
+</style>
+
+<div id="randomizzazione-prionica" class="carosello-prionico"></div>
+
+<script>
+  //Add images to poster.qmd with style='display: none;' so quarto will load them
+  var images = [
+    "figures/fig4.jpg",
+    "figures/fig5.jpg",
+    "figures/prion_fig2.jpg",
+    "figures/prion_fig1.jpg",
+    "figures/prion_fig3.jpg"
+  ];
+  var randomImage = images[Math.floor(Math.random() * images.length)];
+  var imgElement = document.createElement('img');
+  imgElement.src = randomImage;
+  document.getElementById('randomizzazione-prionica').appendChild(imgElement);
+</script>
+```
+
+<!-- All the images! otherwise quarto will not render them to the site-->
+<img src="figures/prion_fig1.jpg" width="10" height="10" style="display : none;">
+<img src="figures/prion_fig2.jpg" width="10" height="10" style="display : none;">
+<img src="figures/prion_fig3.jpg" width="10" height="10" style="display : none;">
+<img src="figures/fig4.jpg" width="10" height="10" style="display : none;">
+<img src="figures/fig5.jpg" width="10" height="10" style="display : none;">

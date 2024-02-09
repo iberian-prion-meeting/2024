@@ -2,3 +2,13 @@
 .navbar .dropdown:hover .dropdown-menu {
   display: block;
 }
+
+/* Footer rebrand*/
+.nav-footer {
+  flex-direction: column;
+  max-width: 850px;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+}

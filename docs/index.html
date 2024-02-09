@@ -273,48 +273,32 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <div class="row">
-  <a href="./visitsantiago.html" class="location-button">
+  <a href="./visitsantiago.html" class="location-button bobina1">
     <img src="figures/pin-logo.png" alt="pin" width="20" height="20">
     Santiago de Compostela, Spain
   </a>
-  <a href="./programme.html" class="cal-text">
+  <a href="./programme.html" class="cal-text bobina2">
     <img src="figures/cal-logo.png" alt="pin" width="20" height="20">
     <strong>23-24 May 2024</strong>
-    <!-- <a target="_blank" class="hover-additional-text" href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=N3NkOXFhM282M3E4cGIwYWdpaGc5MzhlNGIgZGluby5nYXNwYXI3QG0&tmsrc=dino.gaspar7%40gmail.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_it.gif"> 
-    </a><div class="hover-additional-text"><strong>save the date!</strong></div> -->
   </a>
   <div class="social-links-sidebar">
-  <a href="https://www.instagram.com/iberianprionconference" target="_blank">
+  <a href="https://www.instagram.com/iberianprionconference" class="ig-button bobina3a" target="_blank">
     <img src="figures/ig-icon.png" alt="instagram">
   </a>
-  <a href="https://twitter.com/IberianPrion" target="_blank">
+  <a href="https://twitter.com/IberianPrion" class="x-button bobina3b" target="_blank">
     <img src="figures/x-logo.png" alt="Twitter">
   </a>
-  <a href="https://linkedin.com/company/iberianprionconference" target="_blank">
+  <a href="https://linkedin.com/company/iberianprionconference" class="ln-button bobina3c" target="_blank">
     <img src="figures/In-logo.png" alt="LinkedIn">
   </a>
   </div>
 </div>
 
-<!--
-<div class="logo-social-container">
-  <img src="figures/logo24_3.png" alt="logo" width="250" height="250"> 
-<br>
-<div class="social-text">
-  <div class="descr">You can find us also on social media:</div>
-<div class="social-links-sidebar">
-  <a href="https://www.instagram.com/iberianprionconference" target="_blank">
-    <img src="figures/ig-icon.png" alt="instagram">
-  </a>
-  <a href="https://twitter.com/IberianPrion" target="_blank">
-    <img src="figures/x-logo.png" alt="Twitter">
-  </a>
-  <a href="https://linkedin.com/company/iberianprionconference" target="_blank">
-    <img src="figures/In-logo.png" alt="LinkedIn">
-  </a>
+<div class="row due">
+  <a href="./registration.html" class="offerta-speciale bobina4"><strong>Registration fee 160€</strong></a>
+  <a href="./abstract.html" class="movete strobelight bobina5"><strong>Abstract submission deadline March 31st</strong></a>
 </div>
-</div>
-</div> -->
+
 <style>
   .descr {
     display: flex;
@@ -345,43 +329,11 @@ ul.task-list li input[type="checkbox"] {
 
   .hover-additional-text {
     display: none;
-    margin-left: 10px; /* Adjust as needed */
+    margin-left: 10px; 
     opacity: 0;
     text-decoration: none;
     color : black;
-    /*transition: opacity 1.5s ease-in-out; /* Add a transition */
   }
-
-  /* ADD BACK WHEN HAVE CALENDAR LINK */
-  
-  /*.cal-text:hover .hover-additional-text {
-    display: inline;
-    opacity: 1;
-  }*/
-  
-  /*
-  .social-text {
-    display: flex;
-    text-align: center;
-    max-width: 600px;
-    flex-direction: row;
-    justify-content: center;
-    align-items: stretch;
-    padding-bottom: 15px;
-    padding-top: 15px;
-    background-color: #0299ce05;
-    border-radius: 12px;
-    gap: 15px;
-    box-shadow: 2px 2px 5px rgb(0 125 169 / 35%);
-  }
-  .logo-social-container {
-    display: flex;
-    flex-wrap: wrap; 
-    justify-content: left; 
-    align-items: center;
-    gap: 10px; 
-  }
-  */
   .social-links-sidebar a:hover img {
     transform: scale(1.2);
     gap: 20px;
@@ -389,29 +341,14 @@ ul.task-list li input[type="checkbox"] {
 
   .social-links-sidebar {
     display: flex;
-    justify-content: center; /* Center items horizontally */
-    align-items: center; /* Center items vertically */
-    gap: 15px; /* Adjust spacing between items */
+    justify-content: center;
+    align-items: center; 
+    gap: 15px; 
   }
-  /*.cal-text:hover {
-    content: "This is the text block that appears when hovering.";
-    display: block;
-    background-color: #0ff;
-    color: #0299ce;
-    padding: 10px;
-    border-radius: 5px;
-    /*position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 2;
-  }
-  */
-
   .social-links-sidebar a {
     display: flex;
-    flex-wrap: wrap; /* Wrap cards to the next line if necessary */
-    gap: 10px; /* Adjust spacing between cards */
+    flex-wrap: wrap;
+    gap: 10px;
   }
   .social-links-sidebar img {
     width: 30px;
@@ -434,12 +371,9 @@ ul.task-list li input[type="checkbox"] {
     align-content: flex-start;
     }
   }
-</style>
-
-<style>
-  .prettier {
+  /* */
+  .offerta-speciale {
     border: #0000ff;
-    /* display: flex; */
     align-items: center;
     background-color: #dde9f3;
     border-radius: 5px;
@@ -448,25 +382,86 @@ ul.task-list li input[type="checkbox"] {
     color : #474747;
     text-decoration : none;
   }
-  .prettier2 {
+  .movete {
     text-decoration : none;
     border: 2px solid #dde9f3;
     padding : 4px;
     border-radius: 5px;
   }
-</style>
-<div class="row">
-  <a href="./registration.html" class="prettier"><strong>Registration fee 160€</strong></a>
-  <a href="./abstract.html" class="prettier2 strobelight"><strong>Abstract submission deadline March 31st</strong></a>
-</div>
+  .due {
+    gap: 30px;
+  }
+  @media (max-width: 600px) {
+    .row {
+      flex-direction: column;
+      align-items: center;
+    }
+    .due {
+      gap: 15px;
+    }
+    .logo-social-container {
+      flex-direction: column;
+    }
+    .social-links-sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    }
+  }
+  @keyframes zoomInOut {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  @media (pointer: coarse) {
+    .bobina1 {
+    animation: zoomInOut 0.5s;
+    animation-delay: 0s;
+    }
+    .bobina2 {
+    animation: zoomInOut 0.5s;
+    animation-delay: 0.3s;
+    }
+    .bobina3a {
+    animation: zoomInOut 0.5s;
+    animation-delay: 0.6s;
+    }
+    .bobina3b {
+    animation: zoomInOut 0.5s;
+    animation-delay: 0.7s;
+    }
+    .bobina3c {
+    animation: zoomInOut 0.5s;
+    animation-delay: 0.8s;
+    }
+    .bobina4 {
+    animation: zoomInOut 0.5s;
+    animation-delay: 0.9s;
+    }
+    .bobina5 {
+    animation: zoomInOut 0.5s;
+    animation-delay: 1.2s;
+    }
+  }
 
+</style>
 <section id="sponsors" class="level3">
 <h3 class="anchored" data-anchor-id="sponsors">Sponsors</h3>
-<!--a href="https://www.usc.gal/en" target="_blank"><img src="figures/usc.svg" style="zoom: 60%;" /></a>
-<a href="https://www.proquinorte.com/" target="_blank"><img src="figures/Logo-Proquinorte.avif" style="zoom: 60%;" /></a>
-<a href="path_to_larger_image3.jpg" target="_blank"><img src="figures/vjl.jpg" style="zoom: 60%;" /></a>
-<a href="https://www.celtaingenieros.com/" target="_blank"><img src="figures/c.jpg" style="zoom: 60%;" /></a>
-<br>-->
+<!-- EACH ROW A SPONSOR!-->
+<div class="sponsors">
+  <a href="https://www.usc.gal/en" target="_blank"><img src="figures/usc.svg"></a>
+  <a href="https://www.proquinorte.com/" target="_blank"><img src="figures/Logo-Proquinorte.avif"></a>
+  <a href="https://veterinaryresearch.biomedcentral.com/" target="_blank"><img src="figures/vjl.jpg"></a>
+  <a href="https://www.celtaingenieros.com/" target="_blank"><img src="figures/c.jpg"></a>
+</div>
 <style>
   .sponsors a:hover img {
     transform: scale(1.05);
@@ -475,35 +470,19 @@ ul.task-list li input[type="checkbox"] {
 
   .sponsors {
     display: flex;
-    justify-content: center; /* Center items horizontally */
-    align-items: center; /* Center items vertically */
+    justify-content: center; 
+    align-items: center; 
     flex-wrap : wrap; 
-    gap: 15px; /* Adjust spacing between items */
+    gap: 15px; 
   }
-  /*.cal-text:hover {
-    content: "This is the text block that appears when hovering.";
-    display: block;
-    background-color: #0ff;
-    color: #0299ce;
-    padding: 10px;
-    border-radius: 5px;
-    /*position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 2;
-  }
-  */
-
   .sponsors a {
     display: flex;
-    flex-wrap: wrap; /* Wrap cards to the next line if necessary */
-    gap: 10px; /* Adjust spacing between cards */
+    flex-wrap: wrap; 
+    gap: 10px; 
   }
   .sponsors img {
     height: 90px;
   }
-
   @media (max-width: 600px) {
     .sponsors {
     display: flex;
@@ -514,13 +493,6 @@ ul.task-list li input[type="checkbox"] {
     }
   }
 </style>
-<!-- EACH ROW A SPONSOR!-->
-<div class="sponsors">
-<a href="https://www.usc.gal/en" target="_blank"><img src="figures/usc.svg"></a>
-<a href="https://www.proquinorte.com/" target="_blank"><img src="figures/Logo-Proquinorte.avif"></a>
-<a href="https://veterinaryresearch.biomedcentral.com/" target="_blank"><img src="figures/vjl.jpg"></a>
-<a href="https://www.celtaingenieros.com/" target="_blank"><img src="figures/c.jpg"></a>
-</div>
 </section>
 <section id="welcome" class="level3">
 <h3 class="anchored" data-anchor-id="welcome">Welcome</h3>

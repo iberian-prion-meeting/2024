@@ -5,7 +5,7 @@ title: "Registration"
 To register for the congress, please access [**this registration form**](https://docs.google.com/forms/d/e/1FAIpQLSezvTsL-kR1efQFeVp0Bk3UNlLhD5CL07A5UGiEeI3wkVC-OA/viewform).
 ```{=html}
 <style>
-  .prettier {
+  .cubicolo {
     border: #0000ff;
     /* display: flex; */
     align-items: center;
@@ -16,7 +16,7 @@ To register for the congress, please access [**this registration form**](https:/
   }
 </style>
 
-<strong class='prettier'>Registration Fee: 160€</strong>
+<strong class='cubicolo'>Registration Fee: 160€</strong>
 
 ```
 
@@ -43,6 +43,7 @@ SWIFT: BSCHESMM</p>
 <div id="randomizzazione-prionica" class="carosello-prionico"></div>
 
 <script>
+  //Add images to poster.qmd with style='display: none;' so quarto will load them
   var images = [
     "figures/fig4.jpg",
     "figures/fig5.jpg",
