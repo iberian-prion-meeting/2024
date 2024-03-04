@@ -196,6 +196,7 @@ logo: figures/logo24_3.png
   <a href="https://www.proquinorte.com/" target="_blank"><img src="figures/Logo-Proquinorte.avif"  /></a>
   <a href="https://veterinaryresearch.biomedcentral.com/" target="_blank"><img src="figures/vjl.jpg" /></a>
   <a href="https://www.celtaingenieros.com/" target="_blank"><img src="figures/c.jpg"  /></a>
+  <a href="https://www.celtaingenieros.com/" target="_blank"><img src="figures/c.jpg"  /></a>
 </div>
 <style>
   .sponsors a:hover img {
