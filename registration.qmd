@@ -20,7 +20,18 @@ To register for the congress, please access [**this registration form**](https:/
 
 ```
 
-### Payment Instructions
+## Payment Instructions
+
+### Credit Card
+- Where it says **DNI (ID)** please choose "passport" from the tab
+- Where it says **Concept**, please choose "Congress—XII Iberian Prion Conference" from the tab.
+- Amount, 160
+
+Then you click on "I am not a robot" and "next".
+This will take you to the payment finalization section which unfortunately is not in English. In the first page you need to check the box to agree with terms and conditions ("Acepto os termos e condicións"), then click on "iniciar pagamento", and then enter your credit card number "tarxeta", its date of expiration "data de caducidade" and pin "codigo de seguridade". And submit...
+The system accepts MasterCard and Visa.
+
+### Bank Transfer
 <strong>Important: please indicate "Iberian Prion Conference & your name"</strong>
 <p>Banco Santander Central Hispano<br>
 Address: Rúa Caldeirería 54-56, 15703 Santiago de Compostela<br>

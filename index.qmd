@@ -3,7 +3,6 @@ title: "12th Iberian Congress on Prions"
 logo: figures/logo24_3.png
 ---
 
-
 ```{=html}
 <div class="row">
   <a href="visitsantiago.qmd" class="location-button bobina1">
