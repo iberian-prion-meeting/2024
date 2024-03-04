@@ -461,14 +461,33 @@ ul.task-list li input[type="checkbox"] {
   <a href="https://www.proquinorte.com/" target="_blank"><img src="figures/Logo-Proquinorte.avif"></a>
   <a href="https://veterinaryresearch.biomedcentral.com/" target="_blank"><img src="figures/vjl.jpg"></a>
   <a href="https://www.celtaingenieros.com/" target="_blank"><img src="figures/c.jpg"></a>
-  <a href="https://www.renfe.com/es/en" target="_blank"><img src="figures/renfe.png"></a>
+  <a href="https://www.renfe.com/es/en" class="schermostretto" target="_blank"><img src="figures/renfe.png" style="height: 70px;"></a>
 </div>
 <style>
+  .treno_dei_desideri {
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    gap : 20px;
+    margin-top : 15px;
+  }
+  .controllo_biglietti {
+    display : block;
+  }
   .sponsors a:hover img {
     transform: scale(1.05);
     gap: 20px;
   }
-
+  .logotreno {
+    display : flex;
+  }
+  .logotreno img {
+    height : 60px;
+  }
+  .logotreno a:hover img {
+    transform: scale(1.1);
+    gap: 20px;
+  }
   .sponsors {
     display: flex;
     justify-content: center; 
@@ -476,13 +495,26 @@ ul.task-list li input[type="checkbox"] {
     flex-wrap : wrap; 
     gap: 15px; 
   }
+  /*
   .sponsors a {
     display: flex;
     flex-wrap: wrap; 
     gap: 10px; 
-  }
+  }*/
   .sponsors img {
     height: 90px;
+  }
+  .schermostretto {
+    display : none;
+  }
+  .schermostretto a { 
+    display : none;
+  }
+  .schermolungo {
+    display : inline;
+  }
+  .logotesto {
+    height : 35px;
   }
   @media (max-width: 600px) {
     .sponsors {
@@ -492,16 +524,33 @@ ul.task-list li input[type="checkbox"] {
     align-items: center;
     align-content: flex-start;
     }
+    .treno_dei_desideri {
+    display: block;
+    gap : 0px;
+    margin-top : 15px;
+    }
+    .logotreno {
+      display : none;
+    }
+    .schermostretto {
+      display : inline;
+    }
+    .schermolungo {
+      display : none;
+    }
   }
 </style>
-<section id="get-the-renfe-5-discount" class="level4">
-<h4 class="anchored" data-anchor-id="get-the-renfe-5-discount">Get the <strong>renfe</strong> 5% discount</h4>
-<ul>
-<li>Select in the <a href="https://www.renfe.com/es/en">RENFE webpage</a> the tickets you want.</li>
-<li>Select the Congress/Events fee or “Descuento de Congresos/Ferias” in the drop-down menu.</li>
-<li>Write ” TES/2024/00636 ” in the Authorization Number/ “Número de autorización” box.</li>
-</ul>
-</section>
+<h4 class="anchored">Get the <img class="schermostretto logotesto" src="figures/renfe.png"><strong class="schermolungo">renfe</strong> 5% discount</h4>
+<div class="treno_dei_desideri">
+  <div class="logotreno">
+    <a href="https://www.renfe.com/es/en" target="_blank"><img src="figures/renfe.png"></a>
+  </div>
+  <div class="controllo_biglietti">
+    Select in the <a href="https://www.renfe.com/es/en" target="_blank">RENFE webpage</a> the tickets you want.<br>
+    Select the <strong>Congress/Events fee</strong> or <strong><em>Descuento de Congresos/Ferias</em></strong> in the drop-down menu.<br>
+    Write <strong>TES/2024/00636</strong> in the Authorization Number/ "Número de autorización" box.<br>
+  </div>
+</div>
 </section>
 <section id="welcome" class="level3">
 <h3 class="anchored" data-anchor-id="welcome">Welcome</h3>
