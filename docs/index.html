@@ -535,26 +535,76 @@ ul.task-list li input[type="checkbox"] {
     .schermostretto {
       display : inline;
     }
-    .schermolungo {
-      display : none;
-    }
   }
+  .bottone-copia {
+    width : 170px;
+    border: 0px solid #dde9f3;
+    border-radius: 50px;
+    background-color: #dde9f3;
+    color : #676767;
+    align-items: center;
+  }
+  .bottone-copia svg {
+    width: 1em; /* Adjust this value to your needs */
+    vertical-align: top;
+  }
+  .bottone-copia :hover {
+    align-items: center;
+    background-color: #dde9f3;
+    /*font-size: 24px;*/
+    color : #000000;
+  }
+  .og-bottone-copia {
+    display: inline;
+  }
+  .copied-bottone-copia {
+    display: none;
+    color : #000000;
+  }
+
 </style>
-<h4 class="anchored">Get the <img class="schermostretto logotesto" src="figures/renfe.png"><strong class="schermolungo">renfe</strong> 5% discount</h4>
+<script src="https://cdn.jsdelivr.net/npm/lucide@0.16.12/dist/lucide.js"></script>
+<h4 class="anchored">Get the <strong>renfe</strong> 5% discount</h4>
 <div class="treno_dei_desideri">
   <div class="logotreno">
     <a href="https://www.renfe.com/es/en" target="_blank"><img src="figures/renfe.png"></a>
   </div>
   <div class="controllo_biglietti">
-    Select in the <a href="https://www.renfe.com/es/en" target="_blank">RENFE webpage</a> the tickets you want.<br>
-    Select the <strong>Congress/Events fee</strong> or <strong><em>Descuento de Congresos/Ferias</em></strong> in the drop-down menu.<br>
-    Write <strong>TES/2024/00636</strong> in the Authorization Number/ "Número de autorización" box.<br>
+    <li>Select in the <a href="https://www.renfe.com/es/en" target="_blank">RENFE webpage</a> the tickets you want.</li>
+    <li>Select the <strong>Congress/Events fee</strong> or <strong><em>Descuento de Congresos/Ferias</em></strong> in the drop-down menu.</li>
+    <li>Copy the code 
+    <button class="bottone-copia" id="copyButton" alt="copy the discount code!">
+      <span class="og-bottone-copia">
+        <strong>TES/2024/00636</strong>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-copy"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg>
+      </span>
+      <span class="copied-bottone-copia"><strong>Copied!</strong></span>
+    </button>
+    in the Authorization Number/ <em>Número de autorización</em> box.</li>
   </div>
 </div>
+
+<script>
+document.getElementById('copyButton').addEventListener('click', function() {
+  var self = this;
+  var originalText = this.querySelector('.og-bottone-copia').innerText;
+  navigator.clipboard.writeText(originalText).then(function() {
+    console.log('Copying to clipboard was successful!');
+    self.querySelector('.og-bottone-copia').style.display = 'none';
+    self.querySelector('.copied-bottone-copia').style.display = 'inline-block';
+    setTimeout(function() {
+      self.querySelector('.og-bottone-copia').style.display = 'inline-block';
+      self.querySelector('.copied-bottone-copia').style.display = 'none';
+    }, 1000); // Change back after 1 second
+  }, function(err) {
+    console.error('Could not copy text: ', err);
+  });
+});
+</script>
 </section>
 <section id="welcome" class="level3">
 <h3 class="anchored" data-anchor-id="welcome">Welcome</h3>
-<p>Welcome to the 12th Iberian Prion Congress at the U niversidad de Santiago - Galicia!</p>
+<p>Welcome to the 12th Iberian Prion Congress at the Universidad de Santiago - Galicia!</p>
 <p>It is with great pleasure that we gather here today, over 20 years since the first case of BSE was diagnosed in Spain, marking a significant turning point in our professional careers. The impact of that event shaped our determination to unravel the mysteries of prion diseases, which continue to pose immense challenges to patients and researchers alike. While a cure remains elusive, the past two decades have witnessed remarkable advancements in the field of prion science.</p>
 <p>The Iberian Prion Congress has always been guided by the principles of the One Health approach, bringing together experts from diverse disciplines to address the shared molecular mechanisms of prion diseases and other protein misfolding disorders prevalent in our aging society. This interdisciplinary collaboration has played a crucial role in our quest to develop effective treatments and interventions.</p>
 <p>We are proud to host the 12th Iberian Prion Congress at the prestigious Universidad de Santiago - Galicia, where renowned scientists, medical doctors, biologists, veterinarians, biotechnologists, biochemists, and other specialists from the Iberian Peninsula and beyond will convene. This gathering provides a unique platform for fostering and strengthening interdisciplinary collaborations, enabling us to collectively tackle the challenges that lie ahead.</p>
@@ -606,6 +656,7 @@ window.onload = function() {
     }
   }
 };
+
 </script>
 
 
