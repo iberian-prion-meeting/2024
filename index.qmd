@@ -231,7 +231,7 @@ logo: figures/logo24_3.png
 </style>
 ```
 #### Get the **renfe** 5% discount
-- Select in the [RENFE webpage](www.renfe.com) the tickets you want.
+- Select in the [RENFE webpage](https://www.renfe.com/es/en) the tickets you want.
 - Select the Congress/Events fee or "Descuento de Congresos/Ferias" in the drop-down menu.
 - Write " TES/2024/00636 " in the Authorization Number/ "Número de autorización" box.
 
