@@ -14,14 +14,22 @@ To register for the congress, please access [**this registration form**](https:/
     padding: 12px;
     font-size: 24px;
   }
+  .muoviti {
+    border: #0000ff;
+    align-items: center;
+    /* background-color: #dde9f3; */
+    border-radius: 5px;
+    padding: 9px;
+    font-size: 18px;
+  }
 </style>
 
 <strong class='cubicolo'>Registration Fee: 160€</strong>
-
+<br>
+<br>
+<strong>Deadline: 23:59:59 - 23rd April 2024</strong>
 ```
-
-# Payment Instructions
-
+## Payment Instructions
 ### Credit Card
 You can access the credit card payment from [this link](https://matricula.usc.es/autoliquidacions/Frm_Economica_Autoliquidaciones.asp?lang=10)
 
