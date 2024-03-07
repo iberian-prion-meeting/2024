@@ -61,7 +61,7 @@ title: "Submit abstract"
   to
   <a target='_blank' href="https://forms.gle/SpxhraLCgUY8SPF86">this form</a>
   as a word file (.doc .docx)</li>
-  <li>dentify the document with the name of the person presenting the abstract (e.g.: name_surname.doc)</li>
+  <li>Identify the document with the name of the person presenting the abstract (e.g.: name_surname.doc)</li>
 </div>
 
 ```
