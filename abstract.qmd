@@ -49,6 +49,24 @@ title: "Submit abstract"
 ```
 
 ### Instructions
+```{=html}
+<div class="cavoletti">
+  <li>Abstracts must be in English</li>
+  <li>Max. 350 words</li>
+  <li>Upload your
+  <button class="bottone-napoleone" alt='abstract download' style="border: 0px solid #dde9f3;">
+      <strong>abstract</strong>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-down-to-line"><path d="M12 17V3"/><path d="m6 11 6 6 6-6"/><path d="M19 21H5"/></svg>
+  </button>
+  to
+  <a target='_blank' href="https://forms.gle/SpxhraLCgUY8SPF86">this form</a>
+  as a word file (.doc .docx)</li>
+  <li>dentify the document with the name of the person presenting the abstract (e.g.: name_surname.doc)</li>
+</div>
+
+```
+
+### old
 - Abstracts must be in English
 - Max. 350 words
 - Upload your abstract to [this form](https://forms.gle/SpxhraLCgUY8SPF86) as a word file (.doc .docx)
