@@ -6,11 +6,12 @@ title: "Submit abstract"
 ```{=html}
 <div class="vacolo">
     <span class='cavolo'>Download the </span>
-    <a href="Abstract_Template_Submisison.docx" download class="bottone-napoleone" alt='template download'>
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-down-to-line"><path d="M12 17V3"/><path d="m6 11 6 6 6-6"/><path d="M19 21H5"/></svg>
-        <strong>abstract template</strong>
-    </a>
-    <span class='cavolo'> to apply for a poster session or short talk!</span>
+      <button class="bottone-napoleone" alt='abstract download' style="border: 0px solid #dde9f3;">
+      <a href="Abstract_Template_Submisison.docx" download class="bot-nap-text" alt='template download'>
+          <strong>abstract template</strong>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-down-to-line bot-nap-text"><path d="M12 17V3"/><path d="m6 11 6 6 6-6"/><path d="M19 21H5"/></svg>
+      </a></button>
+    <span class='cavolo'> to apply for a poster session or a short talk!</span>
   </div>
 <br>
 <style>
@@ -23,7 +24,11 @@ title: "Submit abstract"
     background-color: #dde9f3;
     color : #676767;
     align-items: center;
-    text-decoration: none; 
+    text-decoration: none;
+  }
+  .bot-nap-text {
+    text-decoration : none;
+    color : #676767;
   }
   .bottone-napoleone svg {
     width: 1em; /* Adjust this value to your needs */
@@ -54,11 +59,11 @@ title: "Submit abstract"
   <li>Abstracts must be in English</li>
   <li>Max. 350 words</li>
   <li>Upload your
-  <!-- <button class="bottone-napoleone" alt='abstract download' style="border: 0px solid #dde9f3;"> -->
-  <a href="Abstract_Template_Submisison.docx" download class="bottone-napoleone" alt='template download'>
+  <button class="bottone-napoleone" alt='abstract download' style="border: 0px solid #dde9f3;">
+  <a href="Abstract_Template_Submisison.docx" download class="bot-nap-text" alt='template download'>
       <strong>abstract</strong>
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-down-to-line"><path d="M12 17V3"/><path d="m6 11 6 6 6-6"/><path d="M19 21H5"/></svg>
-  <!--</button>--> </a>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-down-to-line bot-nap-text"><path d="M12 17V3"/><path d="m6 11 6 6 6-6"/><path d="M19 21H5"/></svg>
+  </a></button>
   to
   <a target='_blank' href="https://forms.gle/SpxhraLCgUY8SPF86">this form</a>
   as a word file (.doc .docx)</li>
