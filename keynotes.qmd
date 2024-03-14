@@ -103,7 +103,7 @@
     <img src="figures/k4.jpg" alt="keynote4" width="150" height="150" class="rounded-image">
   </div>
   <div class="description">
-    <strong style="font-size: larger;">Carsten Korth</strong><br>
+    <strong style="font-size: larger;">CK</strong><br>
     <em>INST_4</em><br>
     LOC_4<br>
     <div class="touchdevice-additional-text" style="color: #0299ce;">
@@ -119,7 +119,7 @@
     <div class="popup-image-description">
         <img src="figures/k4.jpg" alt="keynote4" width="200" height="200" class="rounded-image">
         <div class="description">
-        <strong style="font-size: larger;">Carsten Korth</strong>
+        <strong style="font-size: larger;">CK</strong>
         </div>
     </div>
         <div class="popup_descr">DESCR_4</div>
