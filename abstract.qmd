@@ -50,7 +50,7 @@ title: "Submit abstract"
   }
 </style>
 
-<strong class='muoviti'>Deadline: 23:59:59 - 31st March 2024</strong>
+<strong class='muoviti'>Deadline EXTENDED: 23:59:59 - 7th April 2024</strong>
 ```
 
 ### Instructions

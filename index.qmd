@@ -28,7 +28,7 @@ logo: figures/logo24_3.png
 
 <div class='row due'>
   <a href='registration.qmd' class='offerta-speciale bobina4'><strong>Registration fee 160€</strong></a>
-  <a href='abstract.qmd' class='movete strobelight bobina5'><strong>Abstract submission deadline March 31st</strong></a>
+  <a href='abstract.qmd' class='movete strobelight bobina5'><strong>Abstract submission deadline Extended to April 7th!</strong></a>
 </div>
 
 <style>
@@ -121,7 +121,7 @@ logo: figures/logo24_3.png
     border-radius: 5px;
   }
   .due {
-    gap: 30px;
+    gap: 15px;
   }
   @media (max-width: 600px) {
     .row {
